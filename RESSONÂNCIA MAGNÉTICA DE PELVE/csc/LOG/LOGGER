@@ -1,0 +1,421 @@
+#
+# logger configuratio file
+#
+# Lines started with # or ! are comment lines
+#
+#------------------------------------------------------------------------
+# part 1: set the output of the messages
+# 0=stderr    1=syslog-file   2=private-file 
+#------------------------------------------------------------------------
+2
+#------------------------------------------------------------------------
+# part 2: set the error level of each package. Each line consist of 3 fields
+# first field is package name (and it is ignored)
+# second field is package key. It must not be changed. This value is 
+# the the Tmr_Package constans in Tmr_Package.h file devided by PACKAGE_RANGE
+# constans
+# third field is the error level witch is a digit between 1 to 7:
+# 0=unspecified  1=severe  2=critical  3=error  4=warning
+# 5=notice  6=information  7=debug
+#------------------------------------------------------------------------
+TMR_PKG_GENERAL          0      4   // General Tamar
+TMR_PKG_COM              1      4   // DICOM Comm. (chptr 8)
+TMR_PKG_SM               2      4   // Save Manager
+TMR_PKG_UI               3      4   // User Interface
+TMR_PKG_MM               4      4   // Memory Manager
+TMR_PKG_AM               5      4   // Archive Manager
+TMR_PKG_DICOM            6      4   // Dicom Data Structures
+TMR_PKG_APP              7      4   // Generic Application
+TMR_PKG_HNSV             8      4   // Dicom Forwarder
+TMR_PKG_PIX              9      4   // Multiple names per patient
+TMR_PKG_SVREG           10      4   // Registry Service
+TMR_PKG_CLREG           11      4   // Registry Client
+TMR_PKG_IPC             12      4   // Inter Process Comm.
+TMR_PKG_ATR             13      4   // Affine Transformations
+TMR_PKG_GLW             14      4   // Gray Level Windowing
+TMR_PKG_MXL             15      4   // Message Exchange Layer
+TMR_PKG_SCL             16      4   // Service Class Layer
+TMR_PKG_CRYPT           17      4   // Infra Encryption Services
+TMR_PKG_SCL_CONFIG      18      4   // Service Class Layer Configuration
+TMR_PKG_IOD             19      4   // Information Obeject Def.
+TMR_PKG_GDS             20      4   // Generic Dicom Server
+TMR_PKG_DISK            21      4   // DICOMDIR support
+TMR_PKG_CONF            22      4   // Configuration
+TMR_PKG_SECM_SYNC       23      4   // SECM Sync Mechanism
+TMR_PKG_TMR             24      4   // Tamar General
+TMR_PKG_GRP             25      4   // Graphics
+TMR_PKG_EXCEPTION_LOG   26      4   // Record first chance exceptions
+TMR_PKG_CDPOLL          27      4   // CD Poll
+TMR_PKG_ARC             28      4   // Archive
+TMR_PKG_SPO             29      4   // Spooler
+TMR_PKG_IP              30      4   // Image Processing library
+TMR_PKG_DICOM_DATA      31      4   // Dump incoming DICOM images to the disk
+TMR_PKG_UICFG           36      4   // Application Settings UI
+TMR_PKG_FILM            38      4   // Film
+TMR_PKG_SCR             42      4   // Screen
+TMR_PKG_TIS             48      4   // Tissue base
+TMR_PKG_UIAPP           49      4   // UI application
+TMR_PKG_NLS             58      4   // Internationalization of text
+TMR_PKG_CMPRS           61      4   // Compersion algorithems
+TMR_PKG_UTIL            63      4   // Utilities
+TMR_PKG_VOLR            66      4   // Volume rendering library
+TMR_PKG_MS              70      4   // WX Application
+TMR_PKG_MSC             71      4   // Server - WX Client
+TMR_PKG_MSConf          72      4   // Server - WX Config
+TMR_PKG_MSMon           73      4   // Server - WX Monitor
+TMR_PKG_AutoRouter      74      4   // Server - Info router, DICOM operations
+TMR_PKG_DicomRouter     75      4   // Server - mpps
+TMR_PKG_PRNT            76      4   // currently not in use
+TMR_PKG_MONITOR         77      4   // Genetal monitoring, scripts and processes
+TMR_PKG_MTRC            78      4   // Metrics and Global License check
+TMR_PKG_DB_AUDIT        79      4   // Audit on (cfg) DB changes
+TMR_PKG_DSER            80      4   // Server - WFM Dicom Server
+TMR_PKG_DIDB            81      4   // Server - WFM Dicom Database
+TMR_PKG_DB              82      4   // Server - WFM General Database
+TMR_PKG_JB              83      4   // Server - WFM Juke Box Manager
+TMR_PKG_MTest           84      4   // Server - WFM Test 
+TMR_PKG_GENIPC          85      4   // Server - WFM GenIPC
+TMR_PKG_CAM             86      4   // Server - WFM CAM
+TMR_PKG_Backup          87      4   // Server - WFM backup
+TMR_PKG_Alloc           88      4   // Server - WFM Alloc
+TMR_PKG_FIR             89      4   // Server - WFM FIR
+TMR_PKG_MLA             90      4   // HL7 support
+TMR_PKG_HTMLRepGen      93      4   // HTML Report Generator
+TMR_PKG_CFGDICT         94      4   // CfgDictionary
+TMR_PKG_MDL_SYNC        95      4   // Medilink Synchronization Process
+TMR_PKG_SYNC_CHECK      96      4   // Archives compare
+TMR_PKG_SVENC           97      4   // Encryption service
+TMR_PKG_SVMLA           98      4   // MLA service
+TMR_PKG_FIR_DATA        99      4   // Dump debug data from FIR
+TMR_PKG_LOG             106     4   // Logger
+TMR_PKG_JLog            107     4   // JNI(Java Native Interface)
+TMR_PKG_PERFLOG         108     4   // Performance Log level
+TMR_PKG_PERFMON         109     4   // Performance Log level
+TMR_PKG_SESSION_LOG     110     4   // Mediprime Session Events Log
+TMR_PKG_STATEMACHINE    120     4   // State Machine
+TMR_PKG_IPZOOM          121     4   // Image Processing Zoom
+TMR_PKG_UTILS           130     4   // Utilities
+TMR_PKG_Thread          180     4   // Server - WFM Thread
+TMR_PKG_PF              181     4   // Server - WFM Prefetch
+TMR_PKG_Rule            182     4   // Server - WFM Prefetch Rules.
+TMR_PKG_Hooks           183     4   // Server - WFM Hooks.
+TMR_PKG_Admin           184     4   // Server - WFM Admin Tool
+TMR_PKG_MSTFailover     185     4   // Server - Failover log
+TMR_PKG_MSTdb           187     4   // Server - WFM db
+TMR_PKG_SIR             188     4   // Server - WFM LTSM
+TMR_PKG_GENERIC         189     4   // Server - WFM Generic
+TMR_PKG_HSM             190     4   // Server - Hierarchic Storage Management
+TMR_PKG_MSTMLI          191     4   // Server - Interface of MST with MDL
+TMR_PKG_SIRAdmin        192     4   // Server - LTSM Admin
+TMR_PKG_Access          193     4   // Server - Access control
+TMR_PKG_AUDIT           194     4   // Audit
+TMR_PKG_DIDB_JNI        195     4   // JAva interface to DIDB
+TMR_PKG_UM              196     4   // User Manager
+TMR_PKG_SECM            197     4   // Security Manager
+TMR_PKG_ALGCEN          198     4   // Server - Centera support 
+TMR_PKG_SVDTC           199     4   // Server - Dicom Conn Tunneling
+TMR_PKG_IP_DEFS         200     4   // Image Processing
+TMR_PKG_IP_ZOOM         201     4   // Image Processing
+TMR_PKG_IP_CORE         202     4   // Image Processing
+TMR_PKG_IP_UTILS        203     4   // Image Processing
+TMR_PKG_IP_MULTIBOX     204     4   // Image Processing
+TMR_PKG_IP_DATATYPES    205     4   // Image Processing
+TMR_PKG_IP_VOLR         206     4   // Image Processing
+TMR_PKG_IP_TYPES        207     4   // Image Processing
+TMR_PKG_IP_OBL          208     4   // Image Processing
+TMR_PKG_IP_GS           209     4   // Image Processing
+TMR_PKG_TOOL            210     4   // Dicom Tools
+TMR_PKG_TRANSLATE_DATA  211     4   // Save images to disk after translate
+TMR_PKG_TRANSLATE       212     4   // Translate images to a canonic presentation
+TMR_PKG_THREADAPI       213     4   // thread OS dependent system calls
+TMR_PKG_ATW             214     4   // Automatic windowing
+TMR_PKG_CCW             215     4   // Central configuration wrapper
+TMR_PKG_CONTEXT         216     4   // context manager
+TMR_PKG_TEST            217     4   // Unit testing
+TMR_PKG_I18N            218     4   // internationalization
+TMR_PKG_SR              219     4   // Structured Report
+TMR_PKG_JPEG            220     4   // JPEG support
+TMR_PKG_DCFF            221     4   // Dicom Container File Format
+TMR_PKG_COMP_PERF       223     4   // COMP performance
+TMR_PKG_JPEG_DATA       224     4   // JPEG DATA
+TMR_PKG_LDR_DATA        225     4   // LDR DATA
+TMR_PKG_TAR             226     4   // TAR - Tar File Format 
+TMR_PKG_XDS             227     4   // XDS
+TMR_PKG_MST_SYNC        228     4   // MST SYNC
+TMR_PKG_QE_DATA         229     4   // Client - QE Data
+TMR_PKG_TNL_DEBUG       230     4   // Client and Server Grid debug
+TMR_PKG_WF              231     4   // Workflow
+TMR_PKG_HCFF            232     4	// Header Container File Format
+TMR_PKG_LDRC_DUMP       233     4   // LDRC dump to file only levels 5,6,7
+TMR_PKG_ALLOCATORS		234     4   // Allocators logs
+TMR_PKG_DISTRIBUTION    235     4   // Distribution Agent
+TMR_PKG_TASK_MGR        236     4   // Task Manager
+TMR_PKG_FILES_CLEANER   237     4   // FilesCleaner Utility
+TMR_PKG_DICOMIZER		238     4   // Dicomizer
+TMR_PKG_ZIP_AND_CLEAN	239		4	// Zip And Clean Tool
+TMR_PKG_SVRIS			333		4	// Server - Wraps pick and MLA
+TMR_PKG_PERFUSION       349     4   // Client - Perfusion
+TMR_PKG_TCO             350     4   // Client - Thread manager
+TMR_PKG_IMG             351     4   // Client - Image handling
+TMR_PKG_CMD             352     4   // Client - Command handling
+TMR_PKG_CBI             353     4   // Client - Cool Bar Interface
+TMR_PKG_WIN             354     4   // Client - Windows wrapper
+TMR_PKG_DIH             355     4   // Client - DICOM Holder
+TMR_PKG_UTL             356     4   // Client - General utilities
+TMR_PKG_WLP             357     4   // Client - handle windowing
+TMR_PKG_RGB             358     4   // Client - handle RGB
+TMR_PKG_SLC             359     4   // Client - Slice 
+TMR_PKG_SPA             360     4   // Client - handle zoom and pan
+TMR_PKG_GRA             362     4   // Cient - Graphics
+TMR_PKG_SCENE           363     4   // Client SCENE
+TMR_PKG_WIPC            364     4   // Client - WIPC
+TMR_PKG_SCTP            365     4   // Client - scout parameters
+TMR_PKG_CCS             366     4   // Client - calcium scoring
+TMR_PKG_PDM             367     4   // Client - proccesed data manager
+TMR_PKG_BAR             368     4   // Client - toolbar
+TMR_PKG_ITVOLR          369     4   // Client - volr image type
+TMR_PKG_LDR             370     4   // Loader
+TMR_PKG_AED             371     4   // Client - AExplorer Dicom interface
+TMR_PKG_AEI             372     4   // Client - AExplorer DIDB interface
+TMR_PKG_QE              373     4   // query engine
+TMR_PKG_IGA             374     4   // Client - generic archive
+TMR_PKG_UTL2            375     4   // Client - More General utilities
+TMR_PKG_MPALGENG        376     4   // Client - english package
+TMR_PKG_LNG             377     7   // Client - Language package
+TMR_PKG_SCMD            378     4   // Client - Command support
+TMR_PKG_DS              379     4   // Client - Data sources
+TMR_PKG_ACMD            380     4   // Client - internal commands
+TMR_PKG_DLG             381     4   // Client - dialog generator
+TMR_PKG_AWIN            382     4   // Client - window commands
+TMR_PKG_WNDA            383     4   // Client - Winforms Windows
+TMR_PKG_GSI             384     4   // Client - spatial information
+TMR_PKG_WLPP            385     4   // Client - windowing parameters
+TMR_PKG_SPAP            386     4   // Client - spatial parameters
+TMR_PKG_GRAP            387     4   // Client - graphics parameters
+TMR_PKG_DM              388     4   // Client - draw manager
+TMR_PKG_SH              389     4   // Client - selection handler
+TMR_PKG_MIPGDA          390     4   // Client - 3D Applications
+TMR_PKG_ITVD            391     4   // Client - Vessel analysis image type
+TMR_PKG_VDP             392     4   // Client - Vessel analysis protocols
+TMR_PKG_TF              393     4   // Client - Teaching files
+TMR_PKG_CINE            394     4   // Client - Cine
+TMR_PKG_CAGDA           395     4   // Client - Cardiac display area
+TMR_PKG_MVL             396     4   // Client - application launcher
+TMR_PKG_FUSE            397     4   // Client - fusion
+TMR_PKG_PM              398     4   // Client - Patient Model
+TMR_PKG_AR_API          399     4   // C++ API between AR and other application 
+TMR_PKG_SYNC            400     4   // WorkFlow grid database synchronization 
+TMR_PKG_IMGT            401     4   // Client - image type
+TMR_PKG_UIFEATURELOG    403     4   // audit buttons/menu usage
+TMR_PKG_PALETTE         404     4   // Client - palette image
+TMR_PKG_WND             405     4   // Client - CSharp windows
+TMR_PKG_ITPAL           406     4   // image type palette image
+TMR_PKG_GH              407     4   // Client - Viewer data source
+TMR_PKG_PGI             408     4   // Client - Group to panel matching
+TMR_PKG_LM              409     4   // Client - Layout manager
+TMR_PKG_DSEL            410     4   // Client - Dicom selection
+TMR_PKG_GM              411     4   // Client - Group Manager
+TMR_PKG_XNODE           412     4   // Client - AE to Dicom interface
+TMR_PKG_EXP             413     4   // Client - Export
+TMR_PKG_PNL             414     4   // Client - Panels
+TMR_PKG_VIEWER          415     4   // Client - Viewer
+TMR_PKG_FP              416     4   // Client - film previewer
+TMR_PKG_GHVIEW          418     4   // Client - viewer content provider
+TMR_PKG_LDRC            419     4   // Client - loader interface engine
+TMR_PKG_CC              420     4   // Client - cursor conference
+TMR_PKG_FM              421     4   // Client - Folder Manager
+TMR_PKG_UP              422     4   // Client - user preferences
+TMR_PKG_LNK             423     4   // Client - link manager
+TMR_PKG_SCT             424     4   // Client - Scout lines
+TMR_PKG_DDP             425     4   // Client - display protocols
+TMR_PKG_ITRGB           426     4   // Client - RGB image type
+TMR_PKG_WL              427     4   // Client - workflow manager
+TMR_PKG_WNDM            428     4   // Ui Models
+TMR_PKG_REP             429     4   // Client - Reports
+TMR_PKG_GenSCP          430     4   // Generic Dicom store server
+TMR_PKG_CDLDR           431     4   // CD direct - Loader interface
+TMR_PKG_CDM             432     4   // CD direct - Manager
+TMR_PKG_CDLOGIC         433     4   // CD direct - CD content manager
+TMR_PKG_LBURN           434     4   // CD direct - XP burner interface
+TMR_PKG_CDMI            435     4   // CD direct - Conn interface
+TMR_PKG_CDIMG           436     4   // CD direct - CD image
+TMR_PKG_CDBRN           437     4   // CD direct - Burn process
+TMR_PKG_CDDIRECT        438     4   // CD direct
+TMR_PKG_CDAD            439     4   // CD direct - Auto Delete
+TMR_PKG_CDIMP           440     4   // CD direct - CD importer
+TMR_PKG_EXPT            450     4   // Client - Export
+TMR_PKG_B3D             451     4   // Client - 3D Box
+TMR_PKG_ITOBL           452     4   // Client - MPR image type
+TMR_PKG_MPR             453     4   // Client - MPR display area
+TMR_PKG_OBLIQUE         454     4   // Client - MPR data source
+TMR_PKG_PD              455     4   // Client - Processed data
+TMR_PKG_QM              456     4   // Client - Queue manager
+TMR_PKG_DCT             458     4   // Client - Dictation
+TMR_PKG_MIP             459     4   // Client - 3D display area
+TMR_PKG_MIPP            460     4   // Client - 3D params
+TMR_PKG_PMA             467     4   // Client - organizer
+TMR_PKG_MPRIS           468     4   // Client - RIS integration
+TMR_PKG_MP              469     4   // Client - MP Process
+TMR_PKG_TISDF           470     4   // Client - Tissue definition
+TMR_PKG_AE              471     4   // Client - archive explorer
+TMR_PKG_DPW             472     4   // Client - ddp editor
+TMR_PKG_SN              473     4   // Client - sticky notes
+TMR_PKG_MAMMO           475     4   // Client - Mammography
+TMR_PKG_LM2             476     4   // Layout Manager - The Next Generation 
+TMR_PKG_REL             477     4   // Relations - The new link mechanism 
+TMR_PKG_RELP            478     4   // Relation Params
+TMR_PKG_PMUI            479     4   // Patient Mini Archive
+TMR_PKG_REPSTOR         480     4   // Reporting Storage        
+TMR_PKG_REPEDIT         481     4   // Reporting Editor        
+TMR_PKG_REPUI           482     4   // Reporting UI           
+TMR_PKG_DOC             483     4   // MS-Word wrapper           
+TMR_PKG_SPEECH          484     4   // Speech Magic wrapper            
+TMR_PKG_MIC             485     4   // Speech Magic mic wrapper           
+TMR_PKG_REPMAIN         487     4   // Reporting main           
+TMR_PKG_REPCOM          488     4   // Reporting COM interface           
+TMR_PKG_REPINFRA        489     4   // Reporting infrastructure           
+TMR_PKG_MINFRA          490     4   // Managed wrapper to Infra
+TMR_PKG_TXDOC           491     4   // Reporting TX editor wrapper
+TMR_PKG_REPSPOOL        492     4   // Reporting Spooler
+TMR_PKG_IP_MAMMO        493     4   // Image Processing
+TMR_PKG_TREE            501     4   // Central Config data
+TMR_PKG_CFG             502     4   // Central Config
+TMR_PKG_CFGDB           503     4   // Central Config DB
+TMR_PKG_CFG_PERF        504     4   // Central Config Performance logger
+TMR_PKG_WFM		        510     4   // General WFM management
+TMR_PKG_WEB_ARCHIVE        530     4   // Web Archive - General
+TMR_PKG_WEB_ARCHIVE_DATA   531     4   // Web Archive - Data Retrieval
+TMR_PKG_WEB_ARCHIVE_VIEWS  532     4   // Web Archive - Data Disaplay 
+TMR_PKG_WEB_STREAM      540     4   // Web: Streaming of data
+TMR_PKG_PATH_FIND       541     4   // Web: Find file path
+TMR_PKG_SVC             552     4   // Server - Service base
+TMR_PKG_MVS             553     4   // Server - Mvsmain base
+TMR_PKG_CONN            554     4   // Conn protocol
+TMR_PKG_SVQE            555     4   // Server - query service
+TMR_PKG_SVDIDB          556     4   // Server - db service
+TMR_PKG_SVCFG           557     4   // Server - cfg service
+TMR_PKG_SVSM            558     4   // Server - save service
+TMR_PKG_CONNI           559     4   // Conn protocol
+TMR_PKG_SVREP           560     4   // Server - reports service
+TMR_PKG_MEM             561     4   // Memory managment
+TMR_PKG_SVLDR           562     4   // Server - loader service
+TMR_PKG_SVSSL           563     4   // Server - ssl communication
+TMR_PKG_SVLIC           564     4   // Server - license and authentication
+TMR_PKG_SVFTP           565     4   // Server - file transfer
+TMR_PKG_CLFTP           566     4   // Client - file transfer
+TMR_PKG_SCC		        567     4   // Common streaming components
+TMR_PKG_SVSTREAM        568     4   // Server - Streaming service
+TMR_PKG_LAYER           569     4   // Streaming layers
+TMR_PKG_SVCOMPRESS      570	    4   // Server - Compression server
+TMR_PKG_SVLS            571	    4   // Server - Recieve images from compression server
+TMR_PKG_APP_FLOW        572	    4   // Client - application flow
+TMR_PKG_TNL             574     4   // TNL protocol              
+TMR_PKG_SVFWD           575     4   // Server - tunneling service
+TMR_PKG_SVDMX           576     4   // Server - multiplexing service
+TMR_PKG_USERSYNC        573     4   // user syncronization
+TMR_PKG_SVPING          577     4   // MVS Ping Service
+TMR_PKG_CLSPEECH		578     4   // Client - CLSpeech, client of svspeech service  													
+TMR_PKG_SVSPEECH		579     4   // server - svspeech service  				
+TMR_PKG_SVFLOAD			580		4   // Server - fast load service									
+TMR_PKG_FLPERF          581     4   // server - fast load service
+TMR_PKG_SVCAPP          582     4   // server - service common application
+TMR_PKG_MEM_PERF        583     4   // Memory management performance logs
+TMR_PKG_WEB_PORTAL      584     4   // Web portal client app
+TMR_PKG_WEB_QUERY_SERVICE  585  4   // Web portal Query Service
+TMR_PKG_WEB_SN_SERVICE     586  4   // Web portal sticky notes service
+TMR_PKG_WEB_REPORT_SERVICE 587  4   // Web portal report service
+TMR_PKG_WEB_IMAGE_SERVICE  588  4   // Web portal image service (WADO)
+TMR_PKG_SVRENDER           589  4   // Render Service for Light viewer
+TMR_PKG_RIS_SYNC           590  4   // Server - RIS Sync
+TMR_PKG_WEB_UI_PATIENTS_SERVICE        591     4   // Web Portal - Ui Patients Service
+TMR_PKG_WEB_LIGHT_VIEWER               592     4   // Light Viewer
+TMR_PKG_WEB_INFRA                      593     4   // Web infra services and utilities
+TMR_PKG_WEB_SHARE                      594     4   // Share services for patient portal
+TMR_PKG_SVRENDER_PROF                  595     4   // Profiling data for svrender
+TMR_PKG_WEB_MAIL                       596     4   // Mail services for patient portal
+TMR_PKG_WEB_NDA                        597     4   // Non DICOM Agent
+TMR_PKG_WEB_NATIVE_ÉREPORTING           598     4   // Web Native Reporting
+TMR_PKG_WEB_IMPORT_TOOL				   599	   4   // Import Tool Service
+TMR_PKG_WEB_NDF						   600	   4   // NDF Service
+TMR_PKG_JAVA_INFRA_GENERAL             601     4   // Java infra
+TMR_PKG_JAVA_INFRA_I18N                602     4   // Java I18N
+TMR_PKG_JAVA_INFRA_TRANSLATE           603     4   // Java Translate
+TMR_PKG_JAVA_INFRA_DICOM_TOOL          604     4   // Java Dicom Tools
+TMR_PKG_JAVA_INFRA_DICOM_UTIL          605     4   // Java Dicom Utilities
+TMR_PKG_JAVA_INFRA_DICOM               606     4   // Java Dicom
+TMR_PKG_JAVA_INFRA_GUI                 607     4   // Java Dicom UI
+TMR_PKG_JAVA_INFRA_SCHEDULER           608     4   // Java Dicom Scheduler
+TMR_PKG_JAVA_INFRA_DB                  609     4   // Java Dicom DB
+TMR_PKG_JAVA_INFRA_UTIL                610     4   // Java Dicom Util
+TMR_PKG_JAVA_SM	                       611     4   // Java Save Manager
+TMR_PKG_JAVA_CONN                      615     4   // Java Conn protocol
+TMR_PKG_JAVA_MST                       616     4   // Java WFM support
+TMR_PKG_JAVA_XDS                       617     4   // Java Cross Document Sharing
+TMR_PKG_JAVA_AUDIT_GENERAL             620     4   // Java Audit
+TMR_PKG_JAVA_AUDIT_VIEWER              621     4   // Java Audit viewer
+TMR_PKG_JAVA_AUDIT_UTIL                622     4   // Java Audit utilities
+TMR_PKG_JAVA_AUDIT_INFRA               623     4   // Java Audit infra
+TMR_PKG_JAVA_AUDIT_SERVLET             624     4   // Java Audit servlet
+TMR_PKG_JAVA_MS_GENERAL                630     4   // Java WX
+TMR_PKG_JAVA_MS_ARCHIVE_EXPLORER       631     4   // Java WX archive explorer
+TMR_PKG_JAVA_MS_VIEWER                 632     4   // Java WX viewer
+TMR_PKG_JAVA_MS_PMA                    633     4   // Java WX organizer
+TMR_PKG_JAVA_MS_LOAD                   634     4   // Java WX omage loading
+TMR_PKG_JAVA_MS_SAVE                   635     4   // Java WX save manager
+TMR_PKG_JAVA_MS_PUSH                   636     4   // Java WX push
+TMR_PKG_JAVA_MS_CONFERENCE             637     4   // Java WX conference
+TMR_PKG_JAVA_MS_I18N                   638     4   // Java WX I18N
+TMR_PKG_JAVA_MS_UTIL                   639     4   // Java WX Utilities
+TMR_PKG_JAVA_MS_UM                     640     4   // Java WX User Managment
+TMR_PKG_JAVA_MS_CFG                    641     4   // Java WX configuration
+TMR_PKG_JAVA_MS_COMMUNICATION          642     4   // Java WX Comm
+TMR_PKG_JAVA_MS_CACHE                  643     4   // Java WX Cache
+TMR_PKG_JAVA_MF_GENERAL                650     4   // Java MadiFlow General
+TMR_PKG_JAVA_MF_COMMUNICATION          651     4   // Java MadiFlow communication
+TMR_PKG_JAVA_MF_USERS                  652     4   // Java MadiFlow users
+TMR_PKG_JAVA_MF_UTIL                   653     4   // Java MadiFlow utilities
+TMR_PKG_JAVA_MF_CFG                    654     4   // Java MadiFlow Configuartion
+TMR_PKG_JAVA_UM_ADMIN                  660     4   // Java User Managment Admin
+TMR_PKG_JAVA_UM_AUTHENTICATION         661     4   // Java User Managment Authentication
+TMR_PKG_JAVA_UM_I18N                   662     4   // Java User Managment I18N
+TMR_PKG_JAVA_UM_INFRA                  663     4   // Java User Managment infra
+TMR_PKG_JAVA_UM_REPOSITORY             664     4   // Java User Managment repositort
+TMR_PKG_JAVA_UM_SERVLET                665     4   // Java User Managment servlet
+TMR_PKG_JAVA_UM_UI                     666     4   // Java User Managment UI
+TMR_PKG_JAVA_UM_UTIL                   667     4   // Java User Managment Util
+TMR_PKG_JAVA_CFG                       680     4   // Java central config
+TMR_PKG_JAVA_CFG_EDITOR                681     4   // Java central config editor
+TMR_PKG_JAVA_CFG_DB_REP                682     4   // Java central config db
+TMR_PKG_JAVA_CFG_DICTIONARY            683     4   // Java central config dict
+TMR_PKG_JAVA_CFG_DICTIONARY_UI         684     4   // Java central config dict ui
+TMR_PKG_JAVA_CFG_TREE                  685     4   // Java central config data structure
+TMR_PKG_JAVA_CFG_EXP_IMP               686     4   // Java central config export
+TMR_PKG_JAVA_CFG_FILE_REP              687     4   // Java central config file repository
+TMR_PKG_JAVA_CFG_INSTALL               688     4   // Java central config intallation
+TMR_PKG_JAVA_CFG_UTILS                 689     4   // Java central config utils
+TMR_PKG_JAVA_AR_PF                     690     4   // Java InfoRouter Pre-Fetch
+TMR_PKG_JAVA_PIX                       691     4   // Multiple names per patient
+TMR_PKG_JAVA_MDL_GENERAL               701     4   // Java HL7
+TMR_PKG_JAVA_MDL_CONVERTER             702     4   // Java HL7 converter
+TMR_PKG_JAVA_MDL_LISTENER              703     4   // Java HL7 Listener
+TMR_PKG_JAVA_MDL_API                   704     4   // Java HL7 API
+TMR_PKG_JAVA_MDL_UI                    705     4   // Java HL7 UI
+TMR_PKG_JAVA_DIST                      706     4   // Java Distribute (reports ect.)
+TMR_PKG_MST_COMMON                     707     4   // MST base classes
+TMR_PKG_JAVA_AR                        720     4   // Java inforouter
+TMR_PKG_JAVA_MEM                       721     4   // Java HL7 Med email
+TMR_PKG_JAVA_CDSURF                    722     4   // JAVA CDSURF 
+TMR_PKG_JAVA_SYSTEM_CFG                723     4   // Java system config
+TMR_PKG_JAVA_RIS_SYNC                  724     4   // Java RisSync
+TMR_PKG_JAVA_AR_SR                     725     4   // Java inforouter SR
+TMR_PKG_JAVA_AR_BACKUP                 726     4   // Java inforouter backup
+TMR_PKG_BMKP                           727     4   // Bookmark Params
+TMR_PKG_BMK                            728     4   // Bookmark
+TMR_PKG_SEG                            729     4   // Segmentation
+TMR_PKG_JAVA_AR_SC                     730     4   // Java Inforouter Storage Commitment
+TMR_PKG_MST_SYNC_SNIFFER               746     4   // Smart Sync Sniffer
+TMR_PKG_DICOM_LOGGER                   747     4   // Dicom Logger
+TMR_PKG_CONN_SNIFFER                   748     4   // Conn sniffing
+TMR_PKG_DICOM_SNIFFER                  749     4   // Dicom sniffing  
+!
+# 749 is the last valid log package. All new packages should be between 1 and 749

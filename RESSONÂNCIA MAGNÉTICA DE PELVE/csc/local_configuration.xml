@@ -1,0 +1,37 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tree [
+<!ELEMENT tree (branch)+>
+<!ELEMENT branch (node)+>
+<!ELEMENT node (path_segment,parent_path_segment?,value?)>
+<!ELEMENT path_segment (#PCDATA)>
+<!ELEMENT parent_path_segment (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+]>
+<tree>
+<branch>
+<node>
+<path_segment>data</path_segment>
+<parent_path_segment></parent_path_segment>
+<value></value>
+</node>
+
+<node>
+<path_segment>data\cd</path_segment>
+<parent_path_segment>data</parent_path_segment>
+<value></value>
+</node>
+
+<node>
+<path_segment>data\cd\pmui_setting</path_segment>
+<parent_path_segment>data\cd</parent_path_segment>
+<value></value>
+</node>
+
+<node>
+<path_segment>data\cd\pmui_setting\display_mode</path_segment>
+<parent_path_segment>data\cd\pmui_setting</parent_path_segment>
+<value>AUTO_STRIP</value>
+</node>
+
+</branch>
+</tree>

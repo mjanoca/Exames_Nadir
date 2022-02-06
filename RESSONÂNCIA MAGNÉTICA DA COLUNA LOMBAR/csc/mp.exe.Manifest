@@ -1,0 +1,5164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+<assemblyIdentity name="mp.exe" version="1.0.0.1" type="win32" processorArchitecture="x86"/>
+
+<description>Built with: Side-by-Side Manifest Maker (4.4.4826.0) (x64)</description>
+<description>Copyright: (c) Maze Computer Communications, Inc.  All rights reserved.</description>
+<description>Licensee: Algotec; Raanana; Israel</description>
+<description>License: 1 user license</description>
+
+<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+ <security>
+  <requestedPrivileges>
+   <requestedExecutionLevel level="asInvoker" uiAccess="false"/>
+  </requestedPrivileges>
+ </security>
+</trustInfo>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="Microsoft.VC90.ATL" version="9.0.21022.8" type="win32" publicKeyToken="1fc8b3b9a1e18e3b" processorArchitecture="x86"/>
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="Microsoft.VC90.CRT" version="9.0.21022.8" type="win32" publicKeyToken="1fc8b3b9a1e18e3b" processorArchitecture="x86"/>
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="Microsoft.VC90.MFC" version="9.0.21022.8" type="win32" publicKeyToken="1fc8b3b9a1e18e3b" processorArchitecture="x86"/>
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="Microsoft.VC90.MFCLOC" version="9.0.21022.8" type="win32" publicKeyToken="1fc8b3b9a1e18e3b" processorArchitecture="x86"/>
+ </dependentAssembly>
+</dependency>
+
+<dependency>
+ <dependentAssembly>
+  <assemblyIdentity name="DictionaryToolControl" version="1.0.0.0" type="win32"/>
+ </dependentAssembly>
+</dependency>
+
+<file name="ACE.DLL" hashalg="SHA1">
+</file>
+
+<file name="ACE_SSL.DLL" hashalg="SHA1">
+</file>
+
+<file name="AWJ2K.DLL" hashalg="SHA1">
+</file>
+
+<file name="IPL.DLL" hashalg="SHA1">
+</file>
+
+<file name="IPLPX.DLL" hashalg="SHA1">
+</file>
+
+<file name="LIBEAY32.DLL" hashalg="SHA1">
+</file>
+
+<file name="SSLEAY32.DLL" hashalg="SHA1">
+</file>
+
+<file name="STD312D.DLL" hashalg="SHA1">
+</file>
+
+<file name="THR12D.DLL" hashalg="SHA1">
+</file>
+
+<file name="TLS7012D.DLL" hashalg="SHA1">
+</file>
+
+<file name="XALAN-C_1_10.DLL" hashalg="SHA1">
+</file>
+
+<file name="XALANMESSAGES_1_10.DLL" hashalg="SHA1">
+</file>
+
+<file name="XERCES-C_2_7.DLL" hashalg="SHA1">
+</file>
+
+<file name="ZLIBWAPI.DLL" hashalg="SHA1">
+</file>
+
+<file name="actbar3.ocx" hashalg="SHA1">
+ <comClass
+     clsid="{0D93EDBA-8A83-4DEF-A890-D725243A82CA}"
+     description="ShortCut Class"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     progid="ActiveBar3Library.ShortCut.3">
+    <progid>ActiveBar3Library.ShortCut</progid>
+ </comClass>
+ <comClass
+     clsid="{1D34DFE8-421B-455B-81AD-3E96FFD813B3}"
+     description="Tool"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     progid="ActiveBar3Library.Tool.3">
+    <progid>ActiveBar3Library.Tool</progid>
+ </comClass>
+ <comClass
+     clsid="{240B1151-97B6-4CE2-A27F-C92FC07C2D9A}"
+     description="Band"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     progid="ActiveBar3Library.Band.3">
+    <progid>ActiveBar3Library.Band</progid>
+ </comClass>
+ <comClass
+     clsid="{2B2601DB-E405-44DD-AFAC-55845507DB2B}"
+     description="ChildBands"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     progid="ActiveBar3Library.ChildBands.3">
+    <progid>ActiveBar3Library.ChildBands</progid>
+ </comClass>
+ <comClass
+     clsid="{4C04A06D-2C91-4B01-A4BE-9ECB6DFA3CCA}"
+     description="Tools Class"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     progid="ActiveBar3Library.Tools.3">
+    <progid>ActiveBar3Library.Tools</progid>
+ </comClass>
+ <comClass
+     clsid="{5407153D-022F-4CD2-8BFF-465569BC5DB8}"
+     description="ActiveBar3 Class"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,alignable,simpleframe,setclientsitefirst"
+     progid="ActiveBar3Library.ActiveBar3.3">
+    <progid>ActiveBar3Library.ActiveBar3</progid>
+ </comClass>
+ <comClass
+     clsid="{59965AFD-23DE-4ABA-9794-A079CDCB170A}"
+     description="CustomizeListbox Class"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="ActiveBar3Library.CustomizeListbox.3">
+    <progid>ActiveBar3Library.CustomizeListbox</progid>
+ </comClass>
+ <comClass
+     clsid="{7994E45C-F455-4849-917B-798EA8479FA8}"
+     description="ReturnString"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     progid="ActiveBar3Library.ReturnString.3">
+    <progid>ActiveBar3Library.ReturnString</progid>
+ </comClass>
+ <comClass
+     clsid="{7ABF4014-6F44-4D97-9089-8C02D408B0AF}"
+     description="ImageMgr Class"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{A66E0647-CF17-4586-8636-2DCAFFA6DA7C}"
+     description="Bands Class"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     progid="ActiveBar3Library.Bands.3">
+    <progid>ActiveBar3Library.Bands</progid>
+ </comClass>
+ <comClass
+     clsid="{D0925461-A116-4C8C-9C7A-E62C0FC99E54}"
+     description="ReturnBool"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     progid="ActiveBar3Library.ReturnBool.3">
+    <progid>ActiveBar3Library.ReturnBool</progid>
+ </comClass>
+ <comClass
+     clsid="{F9D6DD2B-BA1E-4CAF-8D57-FA4D0C83CF82}"
+     description="ComboList Class"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     threadingModel="apartment"
+     progid="ActiveBar3Library.ComboList.3">
+    <progid>ActiveBar3Library.ComboList</progid>
+ </comClass>
+ <typelib
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     version="3.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="AE.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{3835E5D0-ABDC-4357-A15D-4E1C1E9266F5}"
+     description="AE.XCMD_AppGlobalQueryCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppGlobalQueryCmd"/>
+ <comClass
+     clsid="{3B9F95B6-8CF3-4CAC-B352-004DBFB6F8CD}"
+     description="AE.XCMD_AppPushToClientCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppPushToClientCmd"/>
+ <comClass
+     clsid="{41614FFE-A998-4F20-89B9-2F0AE1A4E663}"
+     description="AE.XCMD_AppCleanCacheCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppCleanCacheCmd"/>
+ <comClass
+     clsid="{4BCFA6E9-8F8F-4450-9220-346BAE8E6AC2}"
+     description="AE.AE_Actions"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.AE_Actions"/>
+ <comClass
+     clsid="{54478020-BAC8-4942-83A3-141B4E025E6C}"
+     description="AE.AE_IListener"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.AE_IListener"/>
+ <comClass
+     clsid="{64357271-C86D-4739-B7F3-7CDD3273C337}"
+     description="AE.AE_Explorer"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.AE_Explorer"/>
+ <comClass
+     clsid="{6D1C9873-A7E1-437A-A8DE-5FAF9A1436D7}"
+     description="AE.XCMD_AppReceiveStudiesCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppReceiveStudiesCmd"/>
+ <comClass
+     clsid="{6F30A2E2-1A9D-4D11-8832-225271E3E6C7}"
+     description="AE.XCMD_AppSignCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppSignCmd"/>
+ <comClass
+     clsid="{97443C67-6E8C-498D-829F-19DB810B958C}"
+     description="AE.XCMD_AppTranscribeCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppTranscribeCmd"/>
+ <comClass
+     clsid="{AC63AB5A-C336-4F52-A953-E0D4DF9A516F}"
+     description="AE.XCMD_AppDictateCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppDictateCmd"/>
+ <comClass
+     clsid="{B11E0A2D-FF01-4A82-94F5-7BA90607513A}"
+     description="AE.AE_AppLogoutCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.AE_AppLogoutCmd"/>
+ <comClass
+     clsid="{BBE1EA2C-6466-4DA2-B344-64F3767CAF35}"
+     description="AE.XCMD_AppDoneTranscribeCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppDoneTranscribeCmd"/>
+ <comClass
+     clsid="{C44B41DA-DC6B-45B5-9053-AC6AD179F1A2}"
+     description="AE.XCMD_AppLoadToVueMotionCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppLoadToVueMotionCmd"/>
+ <comClass
+     clsid="{D5182054-018D-49A8-AE08-8AE8E3E35411}"
+     description="AE.XCMD_AppDictateNoStudyCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppDictateNoStudyCmd"/>
+ <comClass
+     clsid="{D6EE768A-7EBD-4FD6-9F22-7240017489F9}"
+     description="AE.XUI_SysPushToClientCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XUI_SysPushToClientCmd"/>
+ <comClass
+     clsid="{DA7D30BA-CA7C-4EE1-8D92-CC3BF2C012DD}"
+     description="AE.AE_AppExitAppCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.AE_AppExitAppCmd"/>
+ <comClass
+     clsid="{EAF8400E-FC58-42EB-A0B0-932670707195}"
+     description="AE.AE_AppHiddenCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.AE_AppHiddenCmd"/>
+ <comClass
+     clsid="{FA079276-D19C-4E76-915C-B2BD25CDEC19}"
+     description="AE.XCMD_AppClearFromLocalCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     threadingModel="apartment"
+     progid="AE.XCMD_AppClearFromLocalCmd"/>
+ <typelib
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     version="10.1"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="CCRPDTP6.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{167066B3-693A-44B0-AFB4-422380FF940D}"
+     description="CCRPDTP6.ccrpDtp"
+     tlbid="{753FEE6F-A545-4EAA-AAC8-87512ED29F21}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,alignable,setclientsitefirst"
+     progid="CCRPDTP6.ccrpDtp"/>
+ <comClass
+     clsid="{264A1F2F-51B6-48BA-BF59-CD49F848C141}"
+     description="CCRPDTP6.CDateTime"
+     tlbid="{753FEE6F-A545-4EAA-AAC8-87512ED29F21}"
+     threadingModel="apartment"
+     progid="CCRPDTP6.CDateTime"/>
+ <typelib
+     tlbid="{753FEE6F-A545-4EAA-AAC8-87512ED29F21}"
+     version="3.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="CCRPUCW6.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{07778C12-DC1B-49D0-A511-34CBBCEFC303}"
+     description="*****************************************************************************************"
+     tlbid="{3C436295-0DC2-4B54-A3AE-C5A98AB5A93A}"
+     threadingModel="apartment"
+     progid="ccrpUCW6.HelperFunctions"/>
+ <comClass
+     clsid="{9C7F7FBA-53B0-4E84-A21E-35A402242D74}"
+     description="*****************************************************************************************"
+     tlbid="{3C436295-0DC2-4B54-A3AE-C5A98AB5A93A}"
+     threadingModel="apartment"
+     progid="ccrpUCW6.ChildWindow"/>
+ <comClass
+     clsid="{AD021C8A-4DBE-481B-AACE-DA0986901BF5}"
+     description="*****************************************************************************************"
+     tlbid="{3C436295-0DC2-4B54-A3AE-C5A98AB5A93A}"
+     progid="ccrpUCW6.IParentUserControl"/>
+ <typelib
+     tlbid="{3C436295-0DC2-4B54-A3AE-C5A98AB5A93A}"
+     version="3.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="LISTDD.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{D4BF8F6F-5E20-11D4-BD7E-00A0C9ED6D19}"
+     description="ListDD.ucListDragDrop"
+     tlbid="{D4BF8F6B-5E20-11D4-BD7E-00A0C9ED6D19}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="ListDD.ucListDragDrop"/>
+ <typelib
+     tlbid="{D4BF8F6B-5E20-11D4-BD7E-00A0C9ED6D19}"
+     version="5.1"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="SSA3D30.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{065E6FD8-1BF9-11D2-BAE8-00104B9E0792}"
+     description="SSFrame Control 3.0"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,actslikelabel,simpleframe,setclientsitefirst"
+     progid="Threed.SSFrame.3">
+    <progid>Threed.SSFrame</progid>
+ </comClass>
+ <comClass
+     clsid="{065E6FDC-1BF9-11D2-BAE8-00104B9E0792}"
+     description="SSPanel Control 3.0"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,actslikelabel,alignable,simpleframe,setclientsitefirst"
+     progid="Threed.SSPanel.3">
+    <progid>Threed.SSPanel</progid>
+ </comClass>
+ <comClass
+     clsid="{065E6FDF-1BF9-11D2-BAE8-00104B9E0792}"
+     description="SSOption Control 3.0"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="Threed.SSOption.3">
+    <progid>Threed.SSOption</progid>
+ </comClass>
+ <comClass
+     clsid="{065E6FE3-1BF9-11D2-BAE8-00104B9E0792}"
+     description="SSCheck Control 3.0"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="Threed.SSCheck.3">
+    <progid>Threed.SSCheck</progid>
+ </comClass>
+ <comClass
+     clsid="{065E6FE6-1BF9-11D2-BAE8-00104B9E0792}"
+     description="SSRibbon Control 3.0"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,actslikelabel,setclientsitefirst"
+     progid="Threed.SSRibbon.3">
+    <progid>Threed.SSRibbon</progid>
+ </comClass>
+ <comClass
+     clsid="{065E6FE9-1BF9-11D2-BAE8-00104B9E0792}"
+     description="SSCommand Control 3.0"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,actslikebutton,setclientsitefirst"
+     progid="Threed.SSCommand.3">
+    <progid>Threed.SSCommand</progid>
+ </comClass>
+ <typelib
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     version="3.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="SSRESZ30.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{E2585153-2883-11D2-B1DA-00104B9E0750}"
+     description="SSResizer Control 3.0"
+     tlbid="{E2585150-2883-11D2-B1DA-00104B9E0750}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,actslikelabel,alignable,setclientsitefirst"
+     progid="ActiveResizer.SSResizer.3">
+    <progid>ActiveResizer.SSResizer</progid>
+ </comClass>
+ <typelib
+     tlbid="{E2585150-2883-11D2-B1DA-00104B9E0750}"
+     version="3.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="SSSPLT30.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{8C3D4AA2-2599-11D2-BAF1-00104B9E0792}"
+     description="Pane Object Object"
+     tlbid="{8C3D4AA0-2599-11D2-BAF1-00104B9E0792}"
+     threadingModel="apartment"
+     progid="SSSplitter.Pane Object.3">
+    <progid>SSSplitter.Pane Object</progid>
+ </comClass>
+ <comClass
+     clsid="{8C3D4AA4-2599-11D2-BAF1-00104B9E0792}"
+     description="Panes Collection Object"
+     tlbid="{8C3D4AA0-2599-11D2-BAF1-00104B9E0792}"
+     threadingModel="apartment"
+     progid="SSSplitter.Panes Collection.3">
+    <progid>SSSplitter.Panes Collection</progid>
+ </comClass>
+ <comClass
+     clsid="{8C3D4AA7-2599-11D2-BAF1-00104B9E0792}"
+     description="SSSplitter Control 3.0"
+     tlbid="{8C3D4AA0-2599-11D2-BAF1-00104B9E0792}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,actslikelabel,alignable,simpleframe,setclientsitefirst"
+     progid="SSSplitter.SSSplitter.3">
+    <progid>SSSplitter.SSSplitter</progid>
+ </comClass>
+ <typelib
+     tlbid="{8C3D4AA0-2599-11D2-BAF1-00104B9E0792}"
+     version="3.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="SSTREE.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{1C203F13-95AD-11D0-A84B-00A0247B735B}"
+     description="Sheridan ActiveTreeView Control"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,alignable,setclientsitefirst"
+     progid="SSActiveTreeView.SSTree.1">
+    <progid>SSActiveTreeView.SSTree</progid>
+ </comClass>
+ <typelib
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     version="1.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="SSUBTMR.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{9620B98F-43F2-11D3-BD1C-00A0C9ED6D19}"
+     description="SSubTimer.ISubclass"
+     tlbid="{9620B98D-43F2-11D3-BD1C-00A0C9ED6D19}"
+     progid="SSubTimer.ISubclass"/>
+ <comClass
+     clsid="{9620B992-43F2-11D3-BD1C-00A0C9ED6D19}"
+     description="SSubTimer.GSubclass"
+     tlbid="{9620B98D-43F2-11D3-BD1C-00A0C9ED6D19}"
+     threadingModel="apartment"
+     progid="SSubTimer.GSubclass"/>
+ <comClass
+     clsid="{9620B994-43F2-11D3-BD1C-00A0C9ED6D19}"
+     description="SSubTimer.CTimer"
+     tlbid="{9620B98D-43F2-11D3-BD1C-00A0C9ED6D19}"
+     threadingModel="apartment"
+     progid="SSubTimer.CTimer"/>
+ <typelib
+     tlbid="{9620B98D-43F2-11D3-BD1C-00A0C9ED6D19}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="VBALHOOK.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{56894299-139B-11D4-BDAF-00A0C9ED6D19}"
+     description="Translates the lParam of a WH_KEYBOARD Hook"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     progid="vbalWinHook.cKeyboardlParam"/>
+ <comClass
+     clsid="{5689429B-139B-11D4-BDAF-00A0C9ED6D19}"
+     description="Interface to connect to and use the vbAccelerator Hook Library functions."
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     threadingModel="apartment"
+     progid="vbalWinHook.GHook"/>
+ <comClass
+     clsid="{568942A2-139B-11D4-BDAF-00A0C9ED6D19}"
+     description="Client implementation required to interface with the vbAccelerator Hook Library."
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     threadingModel="apartment"
+     progid="vbalWinHook.IWindowsHook"/>
+ <comClass
+     clsid="{568942A9-139B-11D4-BDAF-00A0C9ED6D19}"
+     description="Translates the lParam of a WH_MOUSE Hook"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     progid="vbalWinHook.cMouselParam"/>
+ <comClass
+     clsid="{568942AB-139B-11D4-BDAF-00A0C9ED6D19}"
+     description="Translates the lParam of a WH_GETMSG Hook"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     progid="vbalWinHook.cGetMsglParam"/>
+ <comClass
+     clsid="{568942AD-139B-11D4-BDAF-00A0C9ED6D19}"
+     description="Translates the lParam of a WH_CALLWNDPROC Hook."
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     progid="vbalWinHook.cCallWndProclParam"/>
+ <comClass
+     clsid="{568942AF-139B-11D4-BDAF-00A0C9ED6D19}"
+     description="Translates the lParam of a WH_CALLWNDPROCRET Hook"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     progid="vbalWinHook.cCallWndProcRetlParam"/>
+ <typelib
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="VBALIML6.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{396F7AC9-A0DD-11D3-93EC-00C0DFE7442A}"
+     description="vbalIml6.vbalImageList"
+     tlbid="{396F7AC0-A0DD-11D3-93EC-00C0DFE7442A}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,setclientsitefirst"
+     progid="vbalIml6.vbalImageList"/>
+ <comClass
+     clsid="{396F7AD1-A0DD-11D3-93EC-00C0DFE7442A}"
+     description="vbalIml6.ppgImages"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{396F7AD5-A0DD-11D3-93EC-00C0DFE7442A}"
+     description="vbalIml6.ppgControl"
+     threadingModel="apartment"/>
+ <typelib
+     tlbid="{396F7AC0-A0DD-11D3-93EC-00C0DFE7442A}"
+     version="1.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="XCOMBOLIST.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{316A5C30-F769-46BA-B7C0-ED0836F82631}"
+     description="vbaccelerator Owner Draw Combo and List box control."
+     tlbid="{72D18DD4-0DA7-11D2-8E21-00B404C10000}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="ODCboLst6.OwnerDrawComboList"/>
+ <comClass
+     clsid="{399D72CC-731D-4C1E-8845-BDB7A2D6FFD0}"
+     description="ODCboLst6.CImageList"
+     tlbid="{72D18DD4-0DA7-11D2-8E21-00B404C10000}"
+     progid="ODCboLst6.CImageList"/>
+ <typelib
+     tlbid="{72D18DD4-0DA7-11D2-8E21-00B404C10000}"
+     version="3.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="XGRID.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{3FAA866F-B670-4FA2-8A50-731476A88A8A}"
+     description="vbAccelerator Grid Control"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,simpleframe,setclientsitefirst"
+     progid="xgrid.vbalGrid"/>
+ <comClass
+     clsid="{4432024F-64CF-44C4-B87A-7D3353C80F74}"
+     description="xgrid.cGridCell"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     threadingModel="apartment"
+     progid="xgrid.cGridCell"/>
+ <comClass
+     clsid="{8EF77A2B-D894-11D3-BD73-00A0C9ED6D19}"
+     description="xgrid.cScrollBars"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     threadingModel="apartment"
+     progid="xgrid.cScrollBars"/>
+ <comClass
+     clsid="{8EF77A38-D894-11D3-BD73-00A0C9ED6D19}"
+     description="xgrid.cHeaderControl"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     threadingModel="apartment"
+     progid="xgrid.cHeaderControl"/>
+ <comClass
+     clsid="{8EF77A3C-D894-11D3-BD73-00A0C9ED6D19}"
+     description="xgrid.cShellSortTGridCells"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     threadingModel="apartment"
+     progid="xgrid.cShellSortTGridCells"/>
+ <typelib
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     version="14.1"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="XNODE.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{1A8978D0-7B93-45B1-9CFA-E5483B6CDD41}"
+     description="XNODE_SeriesNode Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_PatientFolderImpl.1">
+    <progid>XNODE.XNODE_PatientFolderImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{68E2ABAD-90FD-11D3-BD1C-00C04F6047D8}"
+     description="XNODE_FilterField Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_FilterField.1">
+    <progid>XNODE.XNODE_FilterField</progid>
+ </comClass>
+ <comClass
+     clsid="{71E2C303-820C-11D3-BD25-00A0C9ECF8CA}"
+     description="XNODE_ImaginetNode Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_ImaginetNode.1">
+    <progid>XNODE.XNODE_ImaginetNode</progid>
+ </comClass>
+ <comClass
+     clsid="{80C2BA66-770A-11D3-BD87-00A0C9ECF91E}"
+     description="XNODE_FolderNode Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_FolderNodeImpl.1">
+    <progid>XNODE.XNODE_FolderNodeImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{80C2BA69-770A-11D3-BD87-00A0C9ECF91E}"
+     description="XNODE_ImageNode Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_ImageNode.1">
+    <progid>XNODE.XNODE_ImageNode</progid>
+ </comClass>
+ <comClass
+     clsid="{80C2BA6C-770A-11D3-BD87-00A0C9ECF91E}"
+     description="XNODE_SeriesNode Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_SeriesNodeImpl.1">
+    <progid>XNODE.XNODE_SeriesNodeImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{80C2BA6F-770A-11D3-BD87-00A0C9ECF91E}"
+     description="XNODE_StudyNode Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_StudyNodeImpl.1">
+    <progid>XNODE.XNODE_StudyNodeImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{80C2BA72-770A-11D3-BD87-00A0C9ECF91E}"
+     description="XNODE_ArchiveNode Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_ArchiveNode.1">
+    <progid>XNODE.XNODE_ArchiveNode</progid>
+ </comClass>
+ <comClass
+     clsid="{96921999-912A-11D3-BD20-00A0C9ED6D19}"
+     description="XNODE_FilterFields Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_FilterFields.1">
+    <progid>XNODE.XNODE_FilterFields</progid>
+ </comClass>
+ <comClass
+     clsid="{B321D754-9589-49AE-A0DA-5505DB0241C7}"
+     description="XNODE_DisplayConditions Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_DisplayConditions.1">
+    <progid>XNODE.XNODE_DisplayConditions</progid>
+ </comClass>
+ <comClass
+     clsid="{BC96A36C-7C90-11D3-BD89-00A0C9ECF91E}"
+     description="XNODE_PatientNode Class"
+     threadingModel="both"
+     progid="XNODE.XNODE_PatientNodeImpl.1">
+    <progid>XNODE.XNODE_PatientNodeImpl</progid>
+ </comClass>
+ <typelib
+     tlbid="{BF9DEDFB-766D-11D3-BD85-00A0C9ECF91E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="MSGAPI.DLL" hashalg="SHA1">
+</file>
+
+<file name="CLAR.DLL" hashalg="SHA1">
+</file>
+
+<file name="AUDIT.DLL" hashalg="SHA1">
+</file>
+
+<file name="CFG.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{0A871364-AE20-40BB-A890-4C859164976C}"
+     description="CFG_TransactionCOM Class"
+     tlbid="{54F5B0C3-7C0A-11D3-BD2A-0090278D002D}"
+     threadingModel="apartment"
+     progid="CFG.CFG_TransactionCOM.1">
+    <progid>CFG.CFG_TransactionCOM</progid>
+ </comClass>
+ <comClass
+     clsid="{381FCE87-812B-430A-845E-E410AC00B49D}"
+     description="CFG_Utils Class"
+     threadingModel="both"
+     progid="CFG.CFG_Utils.1">
+    <progid>CFG.CFG_Utils</progid>
+ </comClass>
+ <comClass
+     clsid="{68DC006A-5167-41D6-A157-C6A7F63E10FE}"
+     description="CFG_Iterators Class"
+     threadingModel="both"
+     progid="CFG.CFG_COMIterators.1">
+    <progid>CFG.CFG_COMIterators</progid>
+ </comClass>
+ <comClass
+     clsid="{78D0CE48-7C0A-11D3-BD2A-0090278D002D}"
+     description="CFG_SubTree Class"
+     threadingModel="both"
+     progid="CFG.CFG_SubTree.1">
+    <progid>CFG.CFG_SubTree</progid>
+ </comClass>
+ <comClass
+     clsid="{913E866D-7C0A-11D3-BD2A-0090278D002D}"
+     description="CFG_CFG Class"
+     threadingModel="both"
+     progid="CFG.CFG_CFG.1">
+    <progid>CFG.CFG_CFG</progid>
+ </comClass>
+ <comClass
+     clsid="{B3230A3C-BD1A-11D3-BD2C-00C04F6047D8}"
+     description="CFG_PathList Class"
+     threadingModel="both"
+     progid="CFG.CFG_PathList.1">
+    <progid>CFG.CFG_PathList</progid>
+ </comClass>
+ <typelib
+     tlbid="{54F5B0C3-7C0A-11D3-BD2A-0090278D002D}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="CFGSYNONYM.DLL" hashalg="SHA1">
+</file>
+
+<file name="CONF.DLL" hashalg="SHA1">
+</file>
+
+<file name="TREE.DLL" hashalg="SHA1">
+</file>
+
+<file name="3DLINES.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{E1C81BDD-A9E1-11D3-96E6-871A42DC6E3F}"
+     description="Lines3D.Line3D"
+     tlbid="{E1C81BDB-A9E1-11D3-96E6-871A42DC6E3F}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,alignable,setclientsitefirst"
+     progid="Lines3D.Line3D"/>
+ <typelib
+     tlbid="{E1C81BDB-A9E1-11D3-96E6-871A42DC6E3F}"
+     version="1.1"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="AS-IFCE1.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{0B135BB5-049F-11D3-AFA5-C211C33F2732}"
+     description="The &lt;b&gt;asxPager&lt;/b&gt; control allows large controls such as Toolbars to be hosted as children of the Pager, and scrollbar and scrolling functionality is automatically provided as nessecary "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,alignable,simpleframe,setclientsitefirst"
+     progid="AIFCmp1.asxPager"/>
+ <comClass
+     clsid="{105F578C-62F1-11D3-AFAF-D25152F41427}"
+     description="AIFCmp1.ppgToolBoxGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{105F5797-62F1-11D3-AFAF-D25152F41427}"
+     description="AIFCmp1.ppgPagerGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{105F5799-62F1-11D3-AFAF-D25152F41427}"
+     description="AIFCmp1.ppgBSGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{105F579B-62F1-11D3-AFAF-D25152F41427}"
+     description="AIFCmp1.ppgLHGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{105F579D-62F1-11D3-AFAF-D25152F41427}"
+     description="AIFCmp1.ppgGenericGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{105F579F-62F1-11D3-AFAF-D25152F41427}"
+     description="AIFCmp1.ppgBnrGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{105F57A1-62F1-11D3-AFAF-D25152F41427}"
+     description="AIFCmp1.ppgBarsGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{105F57A3-62F1-11D3-AFAF-D25152F41427}"
+     description="AIFCmp1.ppgPowerButtonGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{105F57A5-62F1-11D3-AFAF-D25152F41427}"
+     description="AIFCmp1.ppgPowerButtonCaption"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{105F57A8-62F1-11D3-AFAF-D25152F41427}"
+     description="AIFCmp1.ppgStatusBarGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{39AE0BC2-F9B1-11D2-AFA5-BE1346417033}"
+     description="The &lt;b&gt;asxMenuEvent&lt;/b&gt; control provides notification when menus are highlighted and exited, allowing you to create status bar help for your applications "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,nouiactivate,setclientsitefirst"
+     progid="AIFCmp1.asxMenuEvent"/>
+ <comClass
+     clsid="{568E2A85-09EE-11D3-A723-00C04F7EB02C}"
+     description="The &lt;b&gt;asxLineHeaderEx&lt;/b&gt; control acts as a 3D line containing a caption and acting as a label control, similar to the top portion of a frame control. "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,actslikelabel,alignable,setclientsitefirst"
+     progid="AIFCmp1.asxLineHeaderEx"/>
+ <comClass
+     clsid="{568E2AA7-09EE-11D3-A723-00C04F7EB02C}"
+     description="The &lt;b&gt;asxLabel&lt;/b&gt; control is similar to the standard VB Label control, supporting additional features such as hyperlink behaviour "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,actslikelabel,setclientsitefirst"
+     progid="AIFCmp1.asxLabel"/>
+ <comClass
+     clsid="{568E2AB5-09EE-11D3-A723-00C04F7EB02C}"
+     description="AIFCmp1.ppgLblGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{E2A47077-00D0-11D3-AFA5-AF3D6AA57632}"
+     description="The &lt;b&gt;asxGenericContainer&lt;/b&gt; control acts in a similar way to the standard VB Frame control, but it does not display border lines or caption text. "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,alignable,simpleframe,setclientsitefirst"
+     progid="AIFCmp1.asxGenericContainer"/>
+ <comClass
+     clsid="{FBC672E5-F04D-11D2-AFA5-E82C878FD532}"
+     description="AIFCmp1.clsIFceComp"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     progid="AIFCmp1.clsIFceComp"/>
+ <comClass
+     clsid="{FBC672FC-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxPanel&lt;/b&gt; control is a 3D container control, with a large assortment of customisable features "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,alignable,simpleframe,setclientsitefirst"
+     progid="AIFCmp1.asxPanel"/>
+ <comClass
+     clsid="{FBC67305-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxBars&lt;/b&gt; control can be used to add visual effects to an application. It is also a container control, so you can host other controls, for example images containing company logos, within the control, regardless of it they have a &lt;b&gt;hWnd&lt;/b&gt; property or not. "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,alignable,simpleframe,setclientsitefirst"
+     progid="AIFCmp1.asxBars"/>
+ <comClass
+     clsid="{FBC6730B-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxFontLabel&lt;/b&gt; control is similar to the standard VB Label control, except that by embedding commands in it&apos;s Caption property, you can format the text in different ways "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,actslikelabel,alignable,setclientsitefirst"
+     progid="AIFCmp1.asxFontLabel"/>
+ <comClass
+     clsid="{FBC6731D-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxToolbar&lt;/b&gt; is a powerful toolbar control "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,alignable,simpleframe,setclientsitefirst"
+     progid="AIFCmp1.asxToolbar"/>
+ <comClass
+     clsid="{FBC67321-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxSysButton&lt;/b&gt; control is a small button control which displays system graphics "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,setclientsitefirst"
+     progid="AIFCmp1.asxSysButton"/>
+ <comClass
+     clsid="{FBC67327-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxPowerButton&lt;/b&gt; is an advanced command button control with dozens of extended features. "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,actslikebutton,setclientsitefirst"
+     progid="AIFCmp1.asxPowerButton"/>
+ <comClass
+     clsid="{FBC6732B-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxToolButton&lt;/b&gt; is an advanced command button control with dozens of extended features. Unlike the PowerButton, the ToolButton control cannot receive the focus or keyboard events "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,actslikebutton,nouiactivate,setclientsitefirst"
+     progid="AIFCmp1.asxToolButton"/>
+ <comClass
+     clsid="{FBC67331-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxButtonStrip&lt;/b&gt; control is similar in design to the &lt;b&gt;Outlook Bar&lt;/b&gt; featured in many Microsoft products. It allows you to define pages (or views) and attach buttons to these pages, complete with caption text and various image states. "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,alignable,setclientsitefirst"
+     progid="AIFCmp1.asxButtonStrip"/>
+ <comClass
+     clsid="{FBC67335-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxToolbox&lt;/b&gt; is a toolbar control that allows itself to be resized in multiple lines "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,setclientsitefirst"
+     progid="AIFCmp1.asxToolbox"/>
+ <comClass
+     clsid="{FBC67339-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxPowerBanner&lt;/b&gt; control displays it&apos;s caption text over a highlighted gradient between two colours. "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,alignable,setclientsitefirst"
+     progid="AIFCmp1.asxPowerBanner"/>
+ <comClass
+     clsid="{FBC6733F-F04D-11D2-AFA5-E82C878FD532}"
+     description="The &lt;b&gt;asxStatusBar&lt;/b&gt; is a fully featured status bar control "
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,alignable,simpleframe,setclientsitefirst"
+     progid="AIFCmp1.asxStatusBar"/>
+ <comClass
+     clsid="{FBC67345-F04D-11D2-AFA5-E82C878FD532}"
+     description="AIFCmp1.ppgAbout"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{FBC67347-F04D-11D2-AFA5-E82C878FD532}"
+     description="AIFCmp1.ppgBSPages"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{FBC6734B-F04D-11D2-AFA5-E82C878FD532}"
+     description="AIFCmp1.ppgTBGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{FBC6734D-F04D-11D2-AFA5-E82C878FD532}"
+     description="AIFCmp1.ppgTBButtons"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{FBC67351-F04D-11D2-AFA5-E82C878FD532}"
+     description="AIFCmp1.ppgBSButtons"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{FBC67353-F04D-11D2-AFA5-E82C878FD532}"
+     description="AIFCmp1.ppgPnlGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{FBC67355-F04D-11D2-AFA5-E82C878FD532}"
+     description="AIFCmp1.ppgToolBoxButtons"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{FBC67357-F04D-11D2-AFA5-E82C878FD532}"
+     description="AIFCmp1.ppgSBPanels"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{FBC67359-F04D-11D2-AFA5-E82C878FD532}"
+     description="AIFCmp1.ppgFLGeneral"
+     threadingModel="apartment"/>
+ <typelib
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     version="5.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="AVNUMBERBOX.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{3478583B-3A00-11D4-99CB-C0D449C10001}"
+     description="avNumberBox.NumberBox"
+     tlbid="{34785839-3A00-11D4-99CB-C0D449C10001}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="avNumberBox.NumberBox"/>
+ <typelib
+     tlbid="{34785839-3A00-11D4-99CB-C0D449C10001}"
+     version="1.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="IMAGEFX.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{30F21E5A-B687-11D4-9A46-444553540001}"
+     description="Image FX.ImageFX"
+     tlbid="{30F21E58-B687-11D4-9A46-444553540001}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,setclientsitefirst"
+     progid="Image FX.ImageFX"/>
+ <typelib
+     tlbid="{30F21E58-B687-11D4-9A46-444553540001}"
+     version="2.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="LSTBOXX5.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{13F32CD1-A34F-413C-88B0-693AF709FFCB}"
+     description="ListBoxXCtl.ppgGeneral"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{78532667-A8A9-4BC2-B841-A1E9EDDBF5DF}"
+     description="ListBoxXCtl.ListBoxXEnums"
+     tlbid="{3DCCBF72-002E-49DD-93C2-0411C105535E}"
+     progid="ListBoxXCtl.ListBoxXEnums"/>
+ <comClass
+     clsid="{935FB830-13A3-4506-BA12-F75E395B35B3}"
+     description="ListBoxXCtl.OwnerDrawCanvas"
+     tlbid="{3DCCBF72-002E-49DD-93C2-0411C105535E}"
+     progid="ListBoxXCtl.OwnerDrawCanvas"/>
+ <comClass
+     clsid="{9D6F52C0-6560-41BA-8BB1-35850C01EE7B}"
+     description="ListBoxXCtl.ppgImageList"
+     threadingModel="apartment"/>
+ <comClass
+     clsid="{B2988E36-6177-4308-98CE-9931FE6E63EE}"
+     description="The ListBoxX control allows the user to select a item from a list, in the same manner as the current VB ListBox. "
+     tlbid="{3DCCBF72-002E-49DD-93C2-0411C105535E}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,alignable,setclientsitefirst"
+     progid="ListBoxXCtl.ListBoxX"/>
+ <typelib
+     tlbid="{3DCCBF72-002E-49DD-93C2-0411C105535E}"
+     version="1.2"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="MOUSEWHEELCONTROL.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{063D8479-2318-488B-8CE8-093ADCB0E761}"
+     description="MouseWheelControl.MouseWheel"
+     tlbid="{1449B9F9-08A9-4FD3-B437-44067322968C}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,nouiactivate,setclientsitefirst"
+     progid="MouseWheelControl.MouseWheel"/>
+ <typelib
+     tlbid="{1449B9F9-08A9-4FD3-B437-44067322968C}"
+     version="3.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="SCROLLERII.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{0BD73397-99CD-40A1-8ADF-84D353E9A8EF}"
+     description="ScrollerII.ISubclass"
+     tlbid="{BB35AEF3-E525-4F8B-81F2-511FF805ABB1}"
+     progid="ScrollerII.ISubclass"/>
+ <comClass
+     clsid="{A691468C-12B7-4015-84AF-BDBB8152EEE0}"
+     description="ScrollerII.FormScroller"
+     tlbid="{BB35AEF3-E525-4F8B-81F2-511FF805ABB1}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,setclientsitefirst"
+     progid="ScrollerII.FormScroller"/>
+ <comClass
+     clsid="{D37F8920-9CAF-45DF-95C7-6630461DD51F}"
+     description="Makes a Form or Part of it Scrollable"
+     tlbid="{BB35AEF3-E525-4F8B-81F2-511FF805ABB1}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,alignable,simpleframe,setclientsitefirst"
+     progid="ScrollerII.ScrollableContainer"/>
+ <typelib
+     tlbid="{BB35AEF3-E525-4F8B-81F2-511FF805ABB1}"
+     version="2.1"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="SG20U.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{5BAADB36-D13B-4708-B8E6-7FACF1BF6783}"
+     description="Data Dynamics #Grid 2.0 (Unicode ICursor)"
+     tlbid="{5D9D76CC-485B-47FB-9BA6-E11F93CB374D}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,alignable,setclientsitefirst"
+     progid="DDSharpGrid2U.Grid"/>
+ <typelib
+     tlbid="{5D9D76CC-485B-47FB-9BA6-E11F93CB374D}"
+     version="1.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="STEPNAVIGATIONBAR.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{59DCDC07-C05F-11D4-A200-00D0B7A93974}"
+     description="StepNavigationBar.StepNavigationCtl"
+     tlbid="{59DCDC05-C05F-11D4-A200-00D0B7A93974}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="StepNavigationBar.StepNavigationCtl"/>
+ <typelib
+     tlbid="{59DCDC05-C05F-11D4-A200-00D0B7A93974}"
+     version="1.2"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="THBRES25.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{9A5ED012-B192-11d3-9382-0000B4BDB148}"
+     description="THBResizeSpecial 2.5 Class"
+     tlbid="{9A5ED010-B192-11D3-9382-0000B4BDB148}"
+     threadingModel="apartment"
+     progid="THBCom.THBResizeSpecial.25">
+    <progid>THBCom.THBResizeSpecial</progid>
+ </comClass>
+ <comClass
+     clsid="{9A5ED015-B192-11d3-9382-0000B4BDB148}"
+     description="THBResize 2.5 Control"
+     tlbid="{9A5ED010-B192-11D3-9382-0000B4BDB148}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="THBCom.THBResize.25">
+    <progid>THBCom.THBResize</progid>
+ </comClass>
+ <comClass
+     clsid="{9A5ED016-B192-11d3-9382-0000B4BDB148}"
+     description="THBResizePropPage1 2.5 Class"
+     threadingModel="apartment"
+     progid="THBCom.THBResizePropPage1">
+    <progid>THBCom.THBResizePropPage1.25</progid>
+ </comClass>
+ <comClass
+     clsid="{9A5ED017-B192-11d3-9382-0000B4BDB148}"
+     description="THBResizePropPage2 2.5 Class"
+     threadingModel="apartment"
+     progid="THBCom.THBResizePropPage2">
+    <progid>THBCom.THBResizePropPage2.25</progid>
+ </comClass>
+ <comClass
+     clsid="{9A5ED018-B192-11d3-9382-0000B4BDB148}"
+     description="THBResizePropPage3 2.5 Class"
+     threadingModel="apartment"
+     progid="THBCom.THBResizePropPage3">
+    <progid>THBCom.THBResizePropPage3.25</progid>
+ </comClass>
+ <typelib
+     tlbid="{9A5ED010-B192-11D3-9382-0000B4BDB148}"
+     version="2.5"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="WIZARDCONTROL.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{15D92E8E-0020-48F0-9BE0-4C966B37A8C7}"
+     description="WizardControl.WIZ_PageController"
+     tlbid="{5D072307-5B7C-43C1-9B00-4D20746792FA}"
+     threadingModel="apartment"
+     progid="WizardControl.WIZ_PageController"/>
+ <comClass
+     clsid="{935207B4-B28C-42FD-AD51-17E423D3E530}"
+     description="WizardControl.WizardCtl"
+     tlbid="{5D072307-5B7C-43C1-9B00-4D20746792FA}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="WizardControl.WizardCtl"/>
+ <comClass
+     clsid="{FED20D78-DE47-4F96-BCB9-E1F57E39228E}"
+     description="WizardControl.WIZ_IWizardPage"
+     tlbid="{5D072307-5B7C-43C1-9B00-4D20746792FA}"
+     threadingModel="apartment"
+     progid="WizardControl.WIZ_IWizardPage"/>
+ <typelib
+     tlbid="{5D072307-5B7C-43C1-9B00-4D20746792FA}"
+     version="3.1"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="YLPANEL.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{B8496C0D-A7E3-11D2-BD79-64BF06C10000}"
+     description="YLPANEL.PANELYL"
+     tlbid="{126E5473-A4FC-11D2-BD79-CC4506C10000}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,nouiactivate,alignable,simpleframe,setclientsitefirst"
+     progid="YLPANEL.PANELYL"/>
+ <typelib
+     tlbid="{126E5473-A4FC-11D2-BD79-CC4506C10000}"
+     version="5.1"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="ALGJPEG.DLL" hashalg="SHA1">
+</file>
+
+<file name="ALGLOG.DLL" hashalg="SHA1">
+</file>
+
+<file name="APP.DLL" hashalg="SHA1">
+</file>
+
+<file name="ARC.DLL" hashalg="SHA1">
+</file>
+
+<file name="CCW.DLL" hashalg="SHA1">
+</file>
+
+<file name="CMPRS.DLL" hashalg="SHA1">
+</file>
+
+<file name="COM.DLL" hashalg="SHA1">
+</file>
+
+<file name="CONTEXT.DLL" hashalg="SHA1">
+</file>
+
+<file name="CRYPT.DLL" hashalg="SHA1">
+</file>
+
+<file name="DICOM.DLL" hashalg="SHA1">
+</file>
+
+<file name="DISK.DLL" hashalg="SHA1">
+</file>
+
+<file name="GDS.DLL" hashalg="SHA1">
+</file>
+
+<file name="I18N.DLL" hashalg="SHA1">
+</file>
+
+<file name="IOD.DLL" hashalg="SHA1">
+</file>
+
+<file name="IPC.DLL" hashalg="SHA1">
+</file>
+
+<file name="MEM.DLL" hashalg="SHA1">
+</file>
+
+<file name="MXL.DLL" hashalg="SHA1">
+</file>
+
+<file name="SCL.DLL" hashalg="SHA1">
+</file>
+
+<file name="SR.DLL" hashalg="SHA1">
+</file>
+
+<file name="STATEMACHINE.DLL" hashalg="SHA1">
+</file>
+
+<file name="THREADTOOLS.DLL" hashalg="SHA1">
+</file>
+
+<file name="TMR.DLL" hashalg="SHA1">
+</file>
+
+<file name="TOOL.DLL" hashalg="SHA1">
+</file>
+
+<file name="TRANSLATE.DLL" hashalg="SHA1">
+</file>
+
+<file name="UTIL_INFRA.DLL" hashalg="SHA1">
+</file>
+
+<file name="WF.DLL" hashalg="SHA1">
+</file>
+
+<file name="IP_3D.DLL" hashalg="SHA1">
+</file>
+
+<file name="IP_CORE.DLL" hashalg="SHA1">
+</file>
+
+<file name="IP_DEFS.DLL" hashalg="SHA1">
+</file>
+
+<file name="IP_GS.DLL" hashalg="SHA1">
+</file>
+
+<file name="IP_OBL.DLL" hashalg="SHA1">
+</file>
+
+<file name="IP_TYPES.DLL" hashalg="SHA1">
+</file>
+
+<file name="IP_UTILS.DLL" hashalg="SHA1">
+</file>
+
+<file name="IP_VOLR.DLL" hashalg="SHA1">
+</file>
+
+<file name="IP_ZOOM.DLL" hashalg="SHA1">
+</file>
+
+<file name="LDR.DLL" hashalg="SHA1">
+</file>
+
+<file name="MLA.DLL" hashalg="SHA1">
+</file>
+
+<file name="ACMD.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{8984F8A6-3F52-11D3-BD7E-00A0C9D4BB53}"
+     description="ACMD_CommandQueue Class"
+     threadingModel="both"
+     progid="ACMD.ACMD_CommandQueue.1">
+    <progid>ACMD.ACMD_CommandQueue</progid>
+ </comClass>
+ <comClass
+     clsid="{F128A719-4822-11D3-BD80-00A0C9D4BB53}"
+     description=""
+     threadingModel="both"
+     progid="ACMD.ACMD_Dispatcher.1">
+    <progid>ACMD.ACMD_Dispatcher</progid>
+ </comClass>
+ <typelib
+     tlbid="{BE16AA00-47F4-11D3-BD80-00A0C9D4BB53}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="ALGMPR.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{64C5453E-B260-4526-A60B-1BF74307DA6B}"
+     description="MPR_VolumeViewerGDAType Class"
+     threadingModel="both"
+     progid="MPR.MPR_VolumeViewerGDAType.1">
+    <progid>MPR.MPR_VolumeViewerGDAType</progid>
+ </comClass>
+ <comClass
+     clsid="{656C9C3D-ACA2-417E-BDB6-45AE8F61E300}"
+     description="MPR_VolumeViewerGDAType Class"
+     threadingModel="both"
+     progid="MPR.MPR_VolrVolumeViewerGDAType.1">
+    <progid>MPR.MPR_VolrVolumeViewerGDAType</progid>
+ </comClass>
+ <comClass
+     clsid="{D648C576-A69C-11D5-9BF6-00C04F6047D8}"
+     description="MPR_GDAType Class"
+     threadingModel="both"
+     progid="MPR.MPR_GDAType.1">
+    <progid>MPR.MPR_GDAType</progid>
+ </comClass>
+ <typelib
+     tlbid="{3D939C00-A6AB-11D5-9BF6-00C04F6047D8}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="ALGPDM.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{DA334026-71D4-4D79-B59B-F50D46FC4846}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="AWIN.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{C0DCDCDA-3FA3-4832-8F6C-9EADAA2113BB}"
+     description="AWIN_MultiMon Class"
+     threadingModel="both"
+     progid="AWIN.AWIN_MultiMon.1">
+    <progid>AWIN.AWIN_MultiMon</progid>
+ </comClass>
+ <typelib
+     tlbid="{FAE35842-F247-11D2-8133-00A0C982CE3E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="B3D.DLL" hashalg="SHA1">
+</file>
+
+<file name="CAGDA.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{3B94F332-A3BD-48D6-87AA-2B0E9339FB62}"
+     description="CAGDA_GDAType Class"
+     threadingModel="both"
+     progid="CAGDA.CAGDA_GDAType.1">
+    <progid>CAGDA.CAGDA_GDAType</progid>
+ </comClass>
+ <typelib
+     tlbid="{504B5B4C-A093-4359-BEDA-7191916F88DA}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="CCS.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{6D0DD695-9503-43D2-AE8D-8B0828041956}"
+     description="CCS_GDAType Class"
+     threadingModel="both"
+     progid="CCS.CCS_GDAType.1">
+    <progid>CCS.CCS_GDAType</progid>
+ </comClass>
+ <typelib
+     tlbid="{35B1BFCF-1D51-4DEA-BE92-28A4C449932E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="CINE.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{E19AFB9A-403C-4394-853F-22BC40E89820}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="DCT.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{F80B73D7-C618-11D5-BDA3-00A0C9ED6D19}"
+     description="DCT_Manager Class"
+     threadingModel="both"
+     progid="DCT.DCT_Manager.1">
+    <progid>DCT.DCT_Manager</progid>
+ </comClass>
+ <typelib
+     tlbid="{A672A3F3-BD72-11D5-BD90-00A0C9ED6D19}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="DDP.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{30822FB3-C74C-34D3-BD45-0090278D44AE}"
+     description=""
+     threadingModel="both"
+     progid="DDP.DDP_SaveAsInfo.1">
+    <progid>DDP.DDP_SaveAsInfo</progid>
+ </comClass>
+ <comClass
+     clsid="{82DBE988-01CC-4476-BB21-13518AC84A08}"
+     description="DDP_DDPTableRepairToolForUI Class"
+     threadingModel="both"
+     progid="DDP.DDP_DDPTableRepairToolForUI.1">
+    <progid>DDP.DDP_DDPTableRepairToolForUI</progid>
+ </comClass>
+ <comClass
+     clsid="{8E0F551E-62D6-4216-961F-9AABF8CC4FAF}"
+     description="DDP_DDPTableEntry Class"
+     threadingModel="both"
+     progid="DDP.DDP_DDPTableEntry.1">
+    <progid>DDP.DDP_DDPTableEntry</progid>
+ </comClass>
+ <comClass
+     clsid="{969CAFAD-226B-407B-B3BC-62D85B18E846}"
+     description="DDP_DDPTable Class"
+     threadingModel="both"
+     progid="DDP.DDP_DDPTable.1">
+    <progid>DDP.DDP_DDPTable</progid>
+ </comClass>
+ <comClass
+     clsid="{BE5222B3-C74A-11D3-BD45-0090278D538F}"
+     description="DDP_DDP Class"
+     threadingModel="both"
+     progid="DDP.DDP_DDP.1">
+    <progid>DDP.DDP_DDP</progid>
+ </comClass>
+ <comClass
+     clsid="{BE522430-C74A-11D3-BD45-0090278D538F}"
+     description="DDP_ParticularDDP Class"
+     threadingModel="both"
+     progid="DDP.DDP_ParticularDDP.1">
+    <progid>DDP.DDP_ParticularDDP</progid>
+ </comClass>
+ <comClass
+     clsid="{DD15AA4D-DF9E-48D8-B393-F78500B6166F}"
+     description="DDP_PresentationManager Class"
+     threadingModel="both"
+     progid="Ddp.DDP_PresentationManager.1">
+    <progid>Ddp.DDP_PresentationManager</progid>
+ </comClass>
+ <typelib
+     tlbid="{4F38126D-C66C-11D3-BD45-0090278D538F}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="DLG.DLL" hashalg="SHA1">
+</file>
+
+<file name="DM.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{EFE52F33-6694-11D3-BD71-00A0C9ECF91E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="DONECTL.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{65654D9C-63C1-11D4-BD81-00A0C9ED6D19}"
+     description="DoneCtrl.donectlnew"
+     tlbid="{649ECC79-2977-11D4-BD37-00A0C9ED6D19}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="DoneCtrl.donectlnew"/>
+ <typelib
+     tlbid="{649ECC79-2977-11D4-BD37-00A0C9ED6D19}"
+     version="14.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="DPW_MONITORSCTL.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{3289C82E-339F-4F8A-A3FF-B959E5BF2579}"
+     description="DPW_MonitorsCtl.ImgUnitCtl"
+     tlbid="{345C2F54-5B55-11D6-BF09-00D0B7A93974}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,simpleframe,setclientsitefirst"
+     progid="DPW_MonitorsCtl.ImgUnitCtl"/>
+ <comClass
+     clsid="{CF83616C-1D2D-4BA3-84D5-8381956806FE}"
+     description="DPW_MonitorsCtl.DisplayUnitCTL"
+     tlbid="{345C2F54-5B55-11D6-BF09-00D0B7A93974}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="DPW_MonitorsCtl.DisplayUnitCTL"/>
+ <typelib
+     tlbid="{345C2F54-5B55-11D6-BF09-00D0B7A93974}"
+     version="10.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="DPW_RULESCONTROL.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{5F7B9BBA-C9F9-11D4-A20F-00D0B7A93974}"
+     description="DPW_RulesControl.DPW_RulesCtl"
+     tlbid="{5F7B9BB8-C9F9-11D4-A20F-00D0B7A93974}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,simpleframe,setclientsitefirst"
+     progid="DPW_RulesControl.DPW_RulesCtl"/>
+ <comClass
+     clsid="{D73DE7B0-8C83-46B2-BCDD-217BCEF5CD94}"
+     description="DPW_RulesControl.DPW_HistoryData"
+     tlbid="{5F7B9BB8-C9F9-11D4-A20F-00D0B7A93974}"
+     threadingModel="apartment"
+     progid="DPW_RulesControl.DPW_HistoryData"/>
+ <typelib
+     tlbid="{5F7B9BB8-C9F9-11D4-A20F-00D0B7A93974}"
+     version="8.6"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="DPW_WIZARD.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{07905A5A-56D4-4F2B-B3DC-E844EAF047B8}"
+     description="DPW_Wizard.DPW_WizardController"
+     tlbid="{C33AEA7A-CD22-4DBA-B0E7-D6C5912CB403}"
+     progid="DPW_Wizard.DPW_WizardController"/>
+ <comClass
+     clsid="{1FD6094C-5F6D-49F1-B5D4-082187A52937}"
+     description="DPW_Wizard.DPW_EventsContainer"
+     tlbid="{C33AEA7A-CD22-4DBA-B0E7-D6C5912CB403}"
+     progid="DPW_Wizard.DPW_EventsContainer"/>
+ <comClass
+     clsid="{85BB4F68-85E6-45F4-AFDD-768634DA7166}"
+     description="DPW_Wizard.DPW_HistoryData"
+     tlbid="{C33AEA7A-CD22-4DBA-B0E7-D6C5912CB403}"
+     progid="DPW_Wizard.DPW_HistoryData"/>
+ <typelib
+     tlbid="{C33AEA7A-CD22-4DBA-B0E7-D6C5912CB403}"
+     version="3.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="DROPDOWN.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{CB98387D-1F37-11D4-BD1C-00A0C9ED6D19}"
+     description="DropDown.DropDownCtl"
+     tlbid="{E08580C9-0BA8-11D4-BDA3-00A0C9ED6D19}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,simpleframe,setclientsitefirst"
+     progid="DropDown.DropDownCtl"/>
+ <comClass
+     clsid="{E085839A-0BA8-11D4-BDA3-00A0C9ED6D19}"
+     description="DropDown.cDropDownToolWindow"
+     tlbid="{E08580C9-0BA8-11D4-BDA3-00A0C9ED6D19}"
+     threadingModel="apartment"
+     progid="DropDown.cDropDownToolWindow"/>
+ <typelib
+     tlbid="{E08580C9-0BA8-11D4-BDA3-00A0C9ED6D19}"
+     version="8.3"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="DS.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{271A9AB1-7193-11D3-BD7A-00A0C9ECF91E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="DSEL.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{5BBDBC63-CFF1-4D6B-802E-C16A79058062}"
+     description=""
+     threadingModel="both"
+     progid="DSEL.DSEL_AEActions.1">
+    <progid>DSEL.DSEL_AEActions</progid>
+ </comClass>
+ <comClass
+     clsid="{5C7207D0-645A-11D3-8281-00A0C982CB4C}"
+     description="DSEL_Selection Class"
+     threadingModel="both"
+     progid="DSEL.DSEL_Selection.1">
+    <progid>DSEL.DSEL_Selection</progid>
+ </comClass>
+ <comClass
+     clsid="{6396223E-7A2A-11D3-8285-00A0C982CB4C}"
+     description="DSEL_StudyNode Class"
+     threadingModel="both"
+     progid="DSEL.DSEL_StudyNode.1">
+    <progid>DSEL.DSEL_StudyNode</progid>
+ </comClass>
+ <comClass
+     clsid="{63962241-7A2A-11D3-8285-00A0C982CB4C}"
+     description="DSEL_SeriesNode Class"
+     threadingModel="both"
+     progid="DSEL.DSEL_SeriesNode.1">
+    <progid>DSEL.DSEL_SeriesNode</progid>
+ </comClass>
+ <comClass
+     clsid="{63962244-7A2A-11D3-8285-00A0C982CB4C}"
+     description="DSEL_ImageNode Class"
+     threadingModel="both"
+     progid="DSEL.DSEL_ImageNode.1">
+    <progid>DSEL.DSEL_ImageNode</progid>
+ </comClass>
+ <comClass
+     clsid="{FA0C0B36-7B2A-11D3-8289-00A0C982CB4C}"
+     description="DSEL_IODSelection Class"
+     threadingModel="both"
+     progid="DSEL.DSEL_IODSelection.1">
+    <progid>DSEL.DSEL_IODSelection</progid>
+ </comClass>
+ <typelib
+     tlbid="{FF88D36F-7A29-11D3-8285-00A0C982CB4C}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="EXP.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{400D0916-0A10-11D4-BD37-00A0C9ECF91E}"
+     description="EXP_AppExportRequestCmd Class"
+     threadingModel="both"
+     progid="EXP.EXP_AppExportRequestCmd.1">
+    <progid>EXP.EXP_AppExportRequestCmd</progid>
+ </comClass>
+ <typelib
+     tlbid="{9834FCBC-FBE9-11D3-BD78-0090278D2C56}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="EXPT.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{118ED6F1-494A-4C51-9C05-86E01E41B987}"
+     description="EXP_MarkKeySeries Class"
+     threadingModel="both"
+     progid="EXP.EXP_MarkKeySeriesImpl.1">
+    <progid>EXP.EXP_MarkKeySeriesImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{2BB29E7F-BEBB-11D4-BD1C-00A0C9FB3988}"
+     description="EXP_AppSaveCompleteCmd Class"
+     threadingModel="both"
+     progid="EXP.EXP_AppSaveCompleteCmd.1">
+    <progid>EXP.EXP_AppSaveCompleteCmd</progid>
+ </comClass>
+ <comClass
+     clsid="{38761795-2797-49A9-8F15-BD6E43BCEC95}"
+     description=""
+     threadingModel="both"
+     progid="EXPT.EXP_SavingSeries.1">
+    <progid>EXPT.EXP_SavingSeries</progid>
+ </comClass>
+ <comClass
+     clsid="{400D090C-0A10-11D4-BD37-00A0C9ECF91E}"
+     description="EXP_SaveManager Class"
+     threadingModel="both"
+     progid="EXP.EXP_FPManager.1">
+    <progid>EXP.EXP_FPManager</progid>
+ </comClass>
+ <comClass
+     clsid="{400D090F-0A10-11D4-BD37-00A0C9ECF91E}"
+     description="EXP_SaveManager Class"
+     threadingModel="both"
+     progid="EXP.EXP_FPProducerImpl.1">
+    <progid>EXP.EXP_FPProducerImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{4AC04526-A90D-41F7-A28B-A9B68D82D147}"
+     description="EXP_UpdateManager Class"
+     threadingModel="both"
+     progid="EXP.EXP_UpdateManagerImpl.1">
+    <progid>EXP.EXP_UpdateManagerImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{5615DA23-204C-45A7-8C1B-142C59DFA226}"
+     description="EXP_ClipboardManager Class"
+     threadingModel="both"
+     progid="EXPT.EXP_ClipboardManagerImpl.1">
+    <progid>EXPT.EXP_ClipboardManagerImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{584FACBB-A46B-42CF-A2FB-2C788E8F28EA}"
+     description="EXP_SaveAsProducer Class"
+     threadingModel="both"
+     progid="EXPT.EXP_SaveAsProducer.1">
+    <progid>EXPT.EXP_SaveAsProducer</progid>
+ </comClass>
+ <comClass
+     clsid="{5C51D27D-1501-11D4-BD9F-00A0C9FB3988}"
+     description="EXP_FilmManager Class"
+     threadingModel="both"
+     progid="EXP.EXP_FilmManager.1">
+    <progid>EXP.EXP_FilmManager</progid>
+ </comClass>
+ <comClass
+     clsid="{62A588ED-FBE9-11D3-BD78-0090278D2C56}"
+     description="EXP_SaveManager Class"
+     threadingModel="both"
+     progid="EXP.EXP_SaveManager.1">
+    <progid>EXP.EXP_SaveManager</progid>
+ </comClass>
+ <comClass
+     clsid="{62A588F7-FBE9-11D3-BD78-0090278D2C56}"
+     description="EXP_SaveProducer Class"
+     threadingModel="both"
+     progid="EXP.EXP_SaveProducer.1">
+    <progid>EXP.EXP_SaveProducer</progid>
+ </comClass>
+ <comClass
+     clsid="{75298357-720E-47CC-9206-271AE0981722}"
+     description="EXP_DerivedObjectManager Class"
+     threadingModel="both"
+     progid="EXPT.EXP_DerivedObjectManager.1">
+    <progid>EXPT.EXP_DerivedObjectManager</progid>
+ </comClass>
+ <comClass
+     clsid="{A9DFBADF-D71D-43EC-95DA-B2FC5D274F57}"
+     description="EXP_ClipboardProducer Class"
+     threadingModel="both"
+     progid="EXPT.EXP_ClipboardProducer.1">
+    <progid>EXPT.EXP_ClipboardProducer</progid>
+ </comClass>
+ <comClass
+     clsid="{BC0182E6-360A-4236-9E17-D82B8A0980E0}"
+     description="EXP_MarkKeyManager Class"
+     threadingModel="both"
+     progid="EXP.EXP_MarkKeyManagerImpl.1">
+    <progid>EXP.EXP_MarkKeyManagerImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{CE5AA328-0B3F-4846-9348-64B97782AADB}"
+     description="EXP_SaveAsManager Class"
+     threadingModel="both"
+     progid="EXP.EXP_SaveAsManagerImpl.1">
+    <progid>EXP.EXP_SaveAsManagerImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{DDA3EF8E-9187-439D-90D0-09FDB116BEB4}"
+     description=""
+     threadingModel="both"
+     progid="EXP.EXP_DcmdirManagerImpl.1">
+    <progid>EXP.EXP_DcmdirManagerImpl</progid>
+ </comClass>
+ <typelib
+     tlbid="{97F027A2-2138-11D5-BE46-0090278D2C56}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="FILM.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{EFF4A4FA-0865-11D4-BD92-00A0C9FB3988}"
+     description="FILM_Client Class"
+     threadingModel="both"
+     progid="FILM.FILM_Client.1">
+    <progid>FILM.FILM_Client</progid>
+ </comClass>
+ <typelib
+     tlbid="{BD5B3C24-FFCF-11D3-BD8B-00A0C9FB3988}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="FP.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{2BB29E47-BEBB-11D4-BD1C-00A0C9FB3988}"
+     description="FP_AppSaveKeyImagesCmd Class"
+     threadingModel="both"
+     progid="FP.FP_AppSaveKeyImagesCmd.1">
+    <progid>FP.FP_AppSaveKeyImagesCmd</progid>
+ </comClass>
+ <comClass
+     clsid="{3D74AC17-A698-11D5-BDBC-00A0C9ECF91E}"
+     description="FP_GDAType Class"
+     threadingModel="both"
+     progid="FP.FP_GDAType.1">
+    <progid>FP.FP_GDAType</progid>
+ </comClass>
+ <comClass
+     clsid="{8629E83E-AB47-11D5-BDBD-00A0C9ECF91E}"
+     description="FP_KPGDAType Class"
+     threadingModel="both"
+     progid="FP.FP_KPGDAType.1">
+    <progid>FP.FP_KPGDAType</progid>
+ </comClass>
+ <comClass
+     clsid="{8CEE3C47-BBC0-11D4-BD1C-00A0C9FB3988}"
+     description="FP_KeyImagePanel Class"
+     threadingModel="both"
+     progid="FP.FP_KeyImagePanel.1">
+    <progid>FP.FP_KeyImagePanel</progid>
+ </comClass>
+ <comClass
+     clsid="{E226A993-E837-11D3-BD77-00A0C982CE3E}"
+     description=""
+     threadingModel="both"
+     progid="FP.FP_Panel.1">
+    <progid>FP.FP_Panel</progid>
+ </comClass>
+ <typelib
+     tlbid="{E226A98B-E837-11D3-BD77-00A0C982CE3E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="FUSE.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{1A047C0F-432E-41C3-9CDE-743F7A8F94EB}"
+     description="FUSE_GDAType Class"
+     threadingModel="both"
+     progid="FUSE.FUSE_GDAType.1">
+    <progid>FUSE.FUSE_GDAType</progid>
+ </comClass>
+ <comClass
+     clsid="{4F412EBF-385E-46B3-8534-6494CD21F087}"
+     description="FUSE_PetCTGDAType Class"
+     threadingModel="both"
+     progid="FUSE.FUSE_PetCTGDAType.1">
+    <progid>FUSE.FUSE_PetCTGDAType</progid>
+ </comClass>
+ <typelib
+     tlbid="{B3E73CCC-B43D-4487-9917-CD4552DCD674}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="GH.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{0E493067-E507-11D2-BD32-00A0C9D4BD79}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="GHVIEW.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{2CD1A8F3-0159-11D3-8264-00A0C982CB4C}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="GM.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{3312A0EA-E0C5-11D4-A229-00D0B7A93974}"
+     description="GM_NominalGroup Class"
+     threadingModel="both"
+     progid="GM.GM_NominalGroup.1">
+    <progid>GM.GM_NominalGroup</progid>
+ </comClass>
+ <comClass
+     clsid="{4B5E60CA-865F-11DA-8BDE-F66BAD1E3F3A}"
+     description="GM_PRMANAGER Class"
+     threadingModel="both"
+     progid="GM.GM_PRManager.1">
+    <progid>GM.GM_PRManager</progid>
+ </comClass>
+ <comClass
+     clsid="{8CFC9D1E-A5E4-4DB0-9CA6-15C2E63153AD}"
+     description="GM_SRGroupingManager Class"
+     threadingModel="both"
+     progid="GM.GM_SRGroupingManager.1">
+    <progid>GM.GM_SRGroupingManager</progid>
+ </comClass>
+ <comClass
+     clsid="{AEE346ED-E470-11D4-A22B-00D0B7A93974}"
+     description="GM_GroupingRule Clasee"
+     threadingModel="both"
+     progid="GM.GM_GroupingRule.1">
+    <progid>GM.GM_GroupingRule</progid>
+ </comClass>
+ <comClass
+     clsid="{B7F32A0E-869D-43AA-ABA4-5405B6F45888}"
+     description="GM_SaveAsDPCOM Class"
+     threadingModel="both"
+     progid="GM.GM_SaveAsDPCOM.1">
+    <progid>GM.GM_SaveAsDPCOM</progid>
+ </comClass>
+ <comClass
+     clsid="{BE522345-C74A-11D3-BD45-0090278D538F}"
+     description="GM_GMDDP Class"
+     threadingModel="both"
+     progid="GM.GM_GMDDP.1">
+    <progid>GM.GM_GMDDP</progid>
+ </comClass>
+ <comClass
+     clsid="{F12D88BE-49AA-11D3-BD70-00A0C9D4BD79}"
+     description="GM_GroupManager Class"
+     threadingModel="both"
+     progid="GM.GM_GroupManager.1">
+    <progid>GM.GM_GroupManager</progid>
+ </comClass>
+ <typelib
+     tlbid="{70FB7E6F-49A1-11D3-BD70-00A0C9D4BD79}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="GRA.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="GRAP.DLL" hashalg="SHA1">
+</file>
+
+<file name="GSI.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{B612E685-E3F1-429B-B83C-C3FF633FBE02}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="GSIP.DLL" hashalg="SHA1">
+</file>
+
+<file name="IGA.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{6C71BA99-806B-11D3-BD1E-00A0C9ECF8CA}"
+     description="IGA_ArchiveManager Class"
+     threadingModel="both"
+     progid="IGA.IGA_ArchiveManager.1">
+    <progid>IGA.IGA_ArchiveManager</progid>
+ </comClass>
+ <comClass
+     clsid="{8AB87515-01BC-4076-B1DE-1DCE9051A401}"
+     description="IGA_Spooler Class"
+     threadingModel="both"
+     progid="IGA.IGA_Spooler.1">
+    <progid>IGA.IGA_Spooler</progid>
+ </comClass>
+ <comClass
+     clsid="{9645DBD6-EA04-484D-A606-2323AD7E9310}"
+     description="IGA_Push Class"
+     threadingModel="both"
+     progid="IGA.IGA_Push.1">
+    <progid>IGA.IGA_Push</progid>
+ </comClass>
+ <comClass
+     clsid="{E2F9564D-6F6C-48E1-9F97-7866D4485CFD}"
+     description=""
+     threadingModel="both"
+     progid="IGA.IGA_SpoolerRequest.1">
+    <progid>IGA.IGA_SpoolerRequest</progid>
+ </comClass>
+ <typelib
+     tlbid="{07DFAA25-7751-11D3-8283-00A0C982CB4C}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="IMG.DLL" hashalg="SHA1">
+</file>
+
+<file name="IMGT.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{E200C8DB-595F-11D3-BD5E-00A0C9ECF91E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="ITOBL.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{6DB95A24-1C8F-11D5-BD97-00A0C9ECF91E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="ITPAL.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{0DA5AB6F-6B72-11D3-BD74-00A0C9ECF91E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="ITPAL2.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{BBE47CDE-F9FB-11D5-B34F-00D0B7A96388}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="ITRGB.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{8F077082-F3FD-11D3-BD2D-00A0C9ECF91E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="ITVD.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{0AABB843-AF05-4987-9AC1-7E73E7B1A39C}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="ITVOLR.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{9884FA5F-4634-4359-AD18-E24735F7C779}"
+     description="ITVOLR_VOLR_COMProtocolManager Class"
+     threadingModel="both"
+     progid="ITVOLR.ITVOLR_VOLR_COMProtocolManager.1">
+    <progid>ITVOLR.ITVOLR_VOLR_COMProtocolManager</progid>
+ </comClass>
+ <typelib
+     tlbid="{BBDB61AC-68BB-11D5-BE53-0090278D2C56}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="LDRC.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{139EA77F-E8B5-432F-BB92-1216962E724A}"
+     description="LDRC_CSManagerHandler Class"
+     threadingModel="both"
+     progid="LDRC.LDRC_CSManagerHandler.1">
+    <progid>LDRC.LDRC_CSManagerHandler</progid>
+ </comClass>
+ <comClass
+     clsid="{8E526797-9190-4A49-B14E-CA1AC45F9BA5}"
+     description="LDRC_ReceiveStudiesManager Class"
+     threadingModel="both"
+     progid="IGA.LDRC_ReceiveStudiesManager.1">
+    <progid>IGA.LDRC_ReceiveStudiesManager</progid>
+ </comClass>
+ <comClass
+     clsid="{DA77449C-95F2-11D3-BD1E-00C04F6047D8}"
+     description="LDRC_ImageList Class"
+     threadingModel="both"
+     progid="LDRC.LDRC_ImageList.1">
+    <progid>LDRC.LDRC_ImageList</progid>
+ </comClass>
+ <typelib
+     tlbid="{08F28744-7FD5-11D3-BD1E-00A0C9ECF8CA}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="LM2.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{3234497E-BF2B-46A2-9A5A-2BE63EDF99CE}"
+     description=""
+     threadingModel="both"
+     progid="LM2.LM2_COMLRAsymmetricPanelRow.1">
+    <progid>LM2.LM2_COMLRAsymmetricPanelRow</progid>
+ </comClass>
+ <typelib
+     tlbid="{A32348E1-9234-4A25-99C5-E0F86813CB5A}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="LNG.DLL" hashalg="SHA1">
+</file>
+
+<file name="LNGM.DLL" hashalg="SHA1">
+</file>
+
+<file name="LNK.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{AB561138-E919-11D3-BD3C-00C04F6047D8}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="MAMMO.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{274FEE52-10DF-432E-99E5-F065961D208B}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="MIP.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{A636A368-658F-11D5-BE53-0090278D2C56}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="MIPGDA.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{67971F38-E184-11D5-B34D-00D0B7A96388}"
+     description="MIPGDA_Type Class"
+     threadingModel="both"
+     progid="MIPGDA.MIPGDA_Type.1">
+    <progid>MIPGDA.MIPGDA_Type</progid>
+ </comClass>
+ <comClass
+     clsid="{67971F41-E184-11D5-B34D-00D0B7A96388}"
+     description="MIPGDA_DDP Class"
+     threadingModel="both"
+     progid="MIPGDA.MIPGDA_DDP.1">
+    <progid>MIPGDA.MIPGDA_DDP</progid>
+ </comClass>
+ <comClass
+     clsid="{76B890D3-A15F-41BB-A9AD-2ECDB6DFFA14}"
+     description="MIPGDA_3DGDAType Class"
+     threadingModel="apartment"
+     progid="MIPGDA.MIPGDA_3DGDAType.1">
+    <progid>MIPGDA.MIPGDA_3DGDAType</progid>
+ </comClass>
+ <comClass
+     clsid="{E7AD1F21-E466-4F69-87EC-CFA69FBF8F2C}"
+     description="MIPGDA_CoronaryGDAType Class"
+     threadingModel="apartment"
+     progid="MIPGDA.MIPGDA_CoronaryGDAType.1">
+    <progid>MIPGDA.MIPGDA_CoronaryGDAType</progid>
+ </comClass>
+ <typelib
+     tlbid="{B1713750-E183-11D5-B34D-00D0B7A96388}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="MIPP.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_ZH_TW.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_ZH_CN.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_TR_TR.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_SV_SE.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_PT_PT.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_PT_BR.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_NO_NO.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_NL_NL.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_KO_KR.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_JA_JP.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_IW_IL.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_IT_IT.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_FR_FR.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_FI_FI.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_ES_MX.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_ES_ES.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_DE_DE.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_DA_DK.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGALL_AR_AR.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPALGENG.DLL" hashalg="SHA1">
+</file>
+
+<file name="MPRIS.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{9F83FCB7-7B22-4FBB-B3BE-F37A164BD43B}"
+     description="MPRIS_Manager Class"
+     threadingModel="both"
+     progid="MPRIS.MPRIS_Manager.1">
+    <progid>MPRIS.MPRIS_Manager</progid>
+ </comClass>
+ <comClass
+     clsid="{A339A5FE-F504-4330-9897-DADEDA21AAAB}"
+     description="MPRIS_IntegrationButton Class"
+     threadingModel="both"
+     progid="MPRIS.MPRIS_IntegrationButton.1">
+    <progid>MPRIS.MPRIS_IntegrationButton</progid>
+ </comClass>
+ <comClass
+     clsid="{D622B59A-BBD5-4081-A80D-073D06B76A04}"
+     description="MPRIS_SameTimeManager Class"
+     threadingModel="both"
+     progid="MPRIS.MPRIS_SameTimeManager.1">
+    <progid>MPRIS.MPRIS_SameTimeManager</progid>
+ </comClass>
+ <typelib
+     tlbid="{B70B353C-DEA8-4A53-816D-88FEDAB8B871}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="OBLIQUE.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{A80A04D8-1EB7-11D5-BD97-00A0C9ECF91E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="PALETTE.DLL" hashalg="SHA1">
+</file>
+
+<file name="PD.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{C6A6B6CD-1850-11D5-BD96-00A0C9ECF91E}"
+     description="PD_Repository Class"
+     threadingModel="both"
+     progid="PD.PD_Repository.1">
+    <progid>PD.PD_Repository</progid>
+ </comClass>
+ <typelib
+     tlbid="{E5F04D90-1857-11D5-BD96-00A0C9ECF91E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="PGI.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{F5018CC5-4A5B-11D3-BD72-00A0C9D4BD79}"
+     description="PGI_Manager Class"
+     threadingModel="both"
+     progid="PGI.PGI_Manager.1">
+    <progid>PGI.PGI_Manager</progid>
+ </comClass>
+ <typelib
+     tlbid="{F5018CC2-4A5B-11D3-BD72-00A0C9D4BD79}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="PM.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{DEA4CE46-552B-4623-986E-4B013AB59102}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="PMUI.DLL" hashalg="SHA1">
+</file>
+
+<file name="PNL.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{34653F1C-8B4B-11D5-9BF0-00C04F6047D8}"
+     description="PNL_GenericPanel Class"
+     threadingModel="both"
+     progid="PNL.PNL_GenericPanel.1">
+    <progid>PNL.PNL_GenericPanel</progid>
+ </comClass>
+ <typelib
+     tlbid="{26624608-47F8-11D3-BD6C-00A0C982CE3E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="QE.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{2DB837C0-7657-11D3-8283-00A0C982CB4C}"
+     description="QE_AsyncListener Class"
+     threadingModel="both"
+     progid="QE.QE_AsyncListener.1">
+    <progid>QE.QE_AsyncListener</progid>
+ </comClass>
+ <comClass
+     clsid="{5BE26796-764D-11D3-8283-00A0C982CB4C}"
+     description="QE_QueryRequest Class"
+     threadingModel="both"
+     progid="QE.QE_QueryRequest.1">
+    <progid>QE.QE_QueryRequest</progid>
+ </comClass>
+ <typelib
+     tlbid="{5BE2678D-764D-11D3-8283-00A0C982CB4C}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="QM.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{C42EBEFA-37DA-11D5-BD36-00A0C9FB3988}"
+     description="QM_QCopy Class"
+     threadingModel="both"
+     progid="QM.QM_QCopy.1">
+    <progid>QM.QM_QCopy</progid>
+ </comClass>
+ <comClass
+     clsid="{C42EBFFA-37DA-11D5-BD36-00A0C9FB3988}"
+     description="QM_QBurn Class"
+     threadingModel="both"
+     progid="QM.QM_QBurn.1">
+    <progid>QM.QM_QBurn</progid>
+ </comClass>
+ <typelib
+     tlbid="{39B9775E-274D-11D5-BD33-00A0C9FB3988}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="REL.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{274FEE52-0544-5326-99E6-F065231D268B}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="RELP.DLL" hashalg="SHA1">
+</file>
+
+<file name="RGB.DLL" hashalg="SHA1">
+</file>
+
+<file name="SCMD.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{49CF380A-48CE-11D3-BD6F-00A0C982CE3E}"
+     description="SCMD_ApplicationCmd Class"
+     threadingModel="both"
+     progid="SCMD.SCMD_ApplicationCmd.1">
+    <progid>SCMD.SCMD_ApplicationCmd</progid>
+ </comClass>
+ <typelib
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="SCN.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{4E211FC0-5871-11D3-827D-00A0C982CB4C}"
+     description="SCN_Scene Class"
+     threadingModel="both"
+     progid="SCN.SCN_Scene.1">
+    <progid>SCN.SCN_Scene</progid>
+ </comClass>
+ <typelib
+     tlbid="{A32B8230-563E-11D3-827D-00A0C982CB4C}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="SH.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{843A41E4-0915-11D3-BD49-00A0C9D4BB53}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="ALGSLC.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{31B7DB28-02E1-11D3-BD3E-00A0C9D4BB53}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="SM.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{01AF261B-D0CB-11D4-BD20-00A0C9FB3988}"
+     description="SM_MedistoreClient Class"
+     threadingModel="both"
+     progid="SM.SM_MedistoreClient.1">
+    <progid>SM.SM_MedistoreClient</progid>
+ </comClass>
+ <comClass
+     clsid="{4BE87C84-8916-4BE1-A826-E44C6412A81D}"
+     description="SM_RemoteClient Class"
+     threadingModel="both"
+     progid="SM.SM_RemoteClient.1">
+    <progid>SM.SM_RemoteClient</progid>
+ </comClass>
+ <comClass
+     clsid="{A5075AA2-6894-11D5-BD41-00A0C9FB3988}"
+     description="SM_ReportStatus Class"
+     threadingModel="both"
+     progid="SM.SM_ReportStatus.1">
+    <progid>SM.SM_ReportStatus</progid>
+ </comClass>
+ <comClass
+     clsid="{C2674716-0ED6-4951-9C0C-E0105B1B034B}"
+     description="SM_SaveRequest Class"
+     threadingModel="both"
+     progid="SM.SM_SaveRequest.1">
+    <progid>SM.SM_SaveRequest</progid>
+ </comClass>
+ <comClass
+     clsid="{D21DECB0-02E4-11D4-BD81-0090278D2C56}"
+     description="SM_DicomClient Class"
+     threadingModel="both"
+     progid="SM.SM_DicomClient.1">
+    <progid>SM.SM_DicomClient</progid>
+ </comClass>
+ <comClass
+     clsid="{D4E025BB-0595-11D4-BD83-0090278D2C56}"
+     description="SM_WndListener Class"
+     threadingModel="both"
+     progid="SM.SM_WndListener.1">
+    <progid>SM.SM_WndListener</progid>
+ </comClass>
+ <comClass
+     clsid="{DBDD261B-D027-11C4-BD24-11A0C9FBA123}"
+     description=""
+     threadingModel="both"
+     progid="SM.SM_DcmdirClient.1">
+    <progid>SM.SM_DcmdirClient</progid>
+ </comClass>
+ <typelib
+     tlbid="{34A69C22-0310-11D4-BD81-0090278D2C56}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="SN.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{17E29162-CEFE-4FED-91CA-BC35015609D1}"
+     description="SN_Manager Class"
+     threadingModel="both"
+     progid="SN.SN_Manager.1">
+    <progid>SN.SN_Manager</progid>
+ </comClass>
+ <typelib
+     tlbid="{889E50D7-7BA2-47DB-A700-1BFF542D1FDA}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="SPA.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="SPAP.DLL" hashalg="SHA1">
+</file>
+
+<file name="TCO.DLL" hashalg="SHA1">
+</file>
+
+<file name="TF.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{5EC1E5C4-0661-4D1C-9E1F-65AFF8E3BC88}"
+     description="TF_AppToggleTeachingCmd Class"
+     threadingModel="both"
+     progid="TF.TF_AppToggleTeachingCmd.1">
+    <progid>TF.TF_AppToggleTeachingCmd</progid>
+ </comClass>
+ <comClass
+     clsid="{CC7B9CE1-1D06-49A7-950E-DA54A9FB54FC}"
+     description="TF_Manager Class"
+     threadingModel="both"
+     progid="TF.TF_Manager.1">
+    <progid>TF.TF_Manager</progid>
+ </comClass>
+ <typelib
+     tlbid="{B56FD1BE-2169-4C9D-813B-3EEE5911FA2D}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="TFUI.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{BFE9A843-9DD5-4B88-96E5-DFFFD1BA2EAE}"
+     description="TFUI.TFUI_Manager"
+     tlbid="{27396CF6-973D-4BEF-BA4E-7003EAFEB03E}"
+     threadingModel="apartment"
+     progid="TFUI.TFUI_Manager"/>
+ <typelib
+     tlbid="{27396CF6-973D-4BEF-BA4E-7003EAFEB03E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="TGDA.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{7B462C22-F868-11D5-B34F-00D0B7A96388}"
+     description="TGDA_Type Class"
+     threadingModel="both"
+     progid="TGDA.TGDA_Type.1">
+    <progid>TGDA.TGDA_Type</progid>
+ </comClass>
+ <typelib
+     tlbid="{9190EAEC-F9E9-11D5-B34F-00D0B7A96388}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="TIS.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{C1032CA8-B8C7-4901-8C11-7566FEFB3F7C}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="TISDF.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{B14424CE-CCF2-41A3-B5B2-8756BA36A1F2}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="TISSUE.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{4C795EC6-FCFA-11D5-B353-00D0B7A96388}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="UI.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{95BCFAC1-6064-11D3-827F-00A0C982CB4C}"
+     description="UI_UI Class"
+     threadingModel="both"
+     progid="UI.UI_UI.1">
+    <progid>UI.UI_UI</progid>
+ </comClass>
+ <comClass
+     clsid="{D14FB548-698A-4ACF-AD06-270A613B0790}"
+     description="UI_Login Class"
+     tlbid="{7DDD3E4A-5967-11D3-827F-00A0C982CB4C}"
+     threadingModel="apartment"
+     progid="UI.UI_Login.1">
+    <progid>UI.UI_Login</progid>
+ </comClass>
+ <typelib
+     tlbid="{7DDD3E4A-5967-11D3-827F-00A0C982CB4C}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="UI_MULTIMON.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{520E355A-C617-4D3B-AE38-9EC4C8FF99B3}"
+     description="UI_MultiMonCtl.UI_MultiMon"
+     tlbid="{B7FF8178-44D3-4D4E-882D-78966F7C8C8F}"
+     threadingModel="apartment"
+     miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,setclientsitefirst"
+     progid="UI_MultiMonCtl.UI_MultiMon"/>
+ <typelib
+     tlbid="{B7FF8178-44D3-4D4E-882D-78966F7C8C8F}"
+     version="10.0"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="UICFG.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{97C2D0C2-30CA-4207-9AC5-7A2F53383C03}"
+     description="UICFG.UICFG_MainCls"
+     tlbid="{5A2E8227-EF0C-4109-B5B3-4B487091AC27}"
+     progid="UICFG.UICFG_MainCls"/>
+ <comClass
+     clsid="{F2BE0E61-0737-4506-A3BC-3AC8C9658923}"
+     description="UICFG.UICFG_AnnotBase"
+     tlbid="{5A2E8227-EF0C-4109-B5B3-4B487091AC27}"
+     progid="UICFG.UICFG_AnnotBase"/>
+ <typelib
+     tlbid="{5A2E8227-EF0C-4109-B5B3-4B487091AC27}"
+     version="10.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="UP.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{483D395F-2399-4365-A35F-A28F4BD7C290}"
+     description="UP_CryptPassWrapper Class"
+     threadingModel="both"
+     progid="UP.UP_CryptPassWrapper.1">
+    <progid>UP.UP_CryptPassWrapper</progid>
+ </comClass>
+ <comClass
+     clsid="{5C1ED606-C736-11D3-BD2F-00C04F6047D8}"
+     description="UP_Manager Class"
+     threadingModel="both"
+     progid="UP.UP_Manager.1">
+    <progid>UP.UP_Manager</progid>
+ </comClass>
+ <comClass
+     clsid="{7B213C1E-735F-4A07-B38F-81A11BCB87FF}"
+     description=""
+     threadingModel="both"
+     progid="UP.UP_UMWrapper.1">
+    <progid>UP.UP_UMWrapper</progid>
+ </comClass>
+ <comClass
+     clsid="{85BCB4D1-9DF9-44BF-94C0-CF27F1B91658}"
+     description="UP_DXAppEnvParams Class"
+     tlbid="{88CEA5F7-C202-11D3-BD2D-00C04F6047D8}"
+     threadingModel="apartment"
+     progid="UP.UP_DXAppEnvParams.1">
+    <progid>UP.UP_DXAppEnvParams</progid>
+ </comClass>
+ <comClass
+     clsid="{AC85F21A-A388-4F79-11BF-69D815FE27CC}"
+     description="UP_LocalCfg Class"
+     threadingModel="both"
+     progid="UP.UP_LocalCfg.1">
+    <progid>UP.UP_LocalCfg</progid>
+ </comClass>
+ <comClass
+     clsid="{B33477F7-D827-4194-8917-89356C7FD580}"
+     description="UP_UserDetails Class"
+     threadingModel="both"
+     progid="UP.UP_UserDetails.1">
+    <progid>UP.UP_UserDetails</progid>
+ </comClass>
+ <comClass
+     clsid="{DD384BBB-119F-4F28-AC4D-1998049D5984}"
+     description="UP_NetworkConfiguration Class"
+     threadingModel="both"
+     progid="UP.UP_NetworkConfiguration.1">
+    <progid>UP.UP_NetworkConfiguration</progid>
+ </comClass>
+ <comClass
+     clsid="{DDC5F38A-8388-4E78-80BF-57D855FE27CC}"
+     description="UP_HWManager Class"
+     threadingModel="both"
+     progid="UP.UP_HWManager.1">
+    <progid>UP.UP_HWManager</progid>
+ </comClass>
+ <comClass
+     clsid="{EF7A9B41-4C24-4011-B432-A04B98A9B870}"
+     description="UP_MonitorConfInfo Class"
+     tlbid="{88CEA5F7-C202-11D3-BD2D-00C04F6047D8}"
+     threadingModel="both"
+     progid="UP.UP_MonitorConfInfo.1">
+    <progid>UP.UP_MonitorConfInfo</progid>
+ </comClass>
+ <comClass
+     clsid="{FA259690-262A-4EC6-8A0E-944161F2C6AE}"
+     description="UP_LocalCfg Class"
+     threadingModel="both"
+     progid="UP.UP_UtilsImp.1">
+    <progid>UP.UP_UtilsImp</progid>
+ </comClass>
+ <typelib
+     tlbid="{88CEA5F7-C202-11D3-BD2D-00C04F6047D8}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="UTL.DLL" hashalg="SHA1">
+</file>
+
+<file name="UTL2.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{1AF21374-DE03-429B-9497-36C6D4936703}"
+     description="UTL2_DicomCondition Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_DicomCondition.1">
+    <progid>UTL2.UTL2_DicomCondition</progid>
+ </comClass>
+ <comClass
+     clsid="{22A6A595-2F93-41D0-9023-420AB622B60B}"
+     description="UTL2_StringMap Class"
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     threadingModel="apartment"
+     progid="UTL2.UTL2_StringMap.1">
+    <progid>UTL2.UTL2_StringMap</progid>
+ </comClass>
+ <comClass
+     clsid="{2EFA68E7-0D79-11D6-AB20-00D0B7A9A45B}"
+     description="UTL2_Context Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_Context.1">
+    <progid>UTL2.UTL2_Context</progid>
+ </comClass>
+ <comClass
+     clsid="{3C06F51D-11CA-11D3-BD54-00A0C9D4BB53}"
+     description="UTL2_ChangeCounter Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_ChangeCounterImpl.1">
+    <progid>UTL2.UTL2_ChangeCounterImpl</progid>
+ </comClass>
+ <comClass
+     clsid="{3C255E15-561C-11D3-BD95-00A0C982CE3E}"
+     description="UTL2_BSTRVector Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_BSTRVector.1">
+    <progid>UTL2.UTL2_BSTRVector</progid>
+ </comClass>
+ <comClass
+     clsid="{3C255E16-561C-11D3-BD95-00A0C982CE3E}"
+     description="UTL2_LongVector Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_LongVector.1">
+    <progid>UTL2.UTL2_LongVector</progid>
+ </comClass>
+ <comClass
+     clsid="{5C4257A0-46F7-4A30-AE12-78CF74A4F478}"
+     description=""
+     threadingModel="both"
+     progid="UTL2.UTL2_UTL2_ImgIgnoreList.1">
+    <progid>UTL2.UTL2_UTL2_ImgIgnoreList</progid>
+ </comClass>
+ <comClass
+     clsid="{5FE13094-DC68-11D2-BD29-00A0C982CB4C}"
+     description="UTL2_PtrVector Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_PtrVector.1">
+    <progid>UTL2.UTL2_PtrVector</progid>
+ </comClass>
+ <comClass
+     clsid="{5FE13101-DC68-11D2-BD29-00A0C982CB4C}"
+     description="UTL2_Scroller Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_Scroller.1">
+    <progid>UTL2.UTL2_Scroller</progid>
+ </comClass>
+ <comClass
+     clsid="{6923D51B-8434-49F6-AA91-7CAF085EF8E1}"
+     description="UTL2_DicomCondition_Expression Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_DicomCondition_Expression.1">
+    <progid>UTL2.UTL2_DicomCondition_Expression</progid>
+ </comClass>
+ <comClass
+     clsid="{7168A3B8-AFCD-4A0A-B11E-818BB0863E2F}"
+     description="UTL2_IODHelper Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_IODHelper.1">
+    <progid>UTL2.UTL2_IODHelper</progid>
+ </comClass>
+ <comClass
+     clsid="{79A0CC4D-DC4A-11D2-BD28-00A0C982CB4C}"
+     description="UTL2_Rect Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_Rect.1">
+    <progid>UTL2.UTL2_Rect</progid>
+ </comClass>
+ <comClass
+     clsid="{DAFCB324-1F24-49D9-B859-5A506AE2AA2B}"
+     description=""
+     threadingModel="both"
+     progid="UTL2.UTL2_BaseDicomCondition.1">
+    <progid>UTL2.UTL2_BaseDicomCondition</progid>
+ </comClass>
+ <comClass
+     clsid="{E6E29E0E-0A05-11D4-BD93-00A0C9FB3988}"
+     description="UTL2_Queue Class"
+     threadingModel="both"
+     progid="UTL2.UTL2_Queue.1">
+    <progid>UTL2.UTL2_Queue</progid>
+ </comClass>
+ <typelib
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="VDP.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{0543FDA4-323D-4424-8150-1F92875652B0}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="VIEWER.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{2D993C0F-8B34-11D5-9BF0-00C04F6047D8}"
+     description="Viewer_GDAType Class"
+     threadingModel="both"
+     progid="Viewer.Viewer_GDAType.1">
+    <progid>Viewer.Viewer_GDAType</progid>
+ </comClass>
+ <typelib
+     tlbid="{352AD324-6C0D-11D3-BD9F-00A0C9D4BB53}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="VOLR.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{BFF38F26-2073-4B41-871A-010674A20C3B}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="WIN.DLL" hashalg="SHA1">
+</file>
+
+<file name="WL.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{1B5C07E7-2DB9-41B0-855E-593DB76D3CEA}"
+     description=""
+     threadingModel="both"
+     progid="WL.WL_ContextManager.1">
+    <progid>WL.WL_ContextManager</progid>
+ </comClass>
+ <comClass
+     clsid="{5345E8EA-E262-4866-8C7C-E4581CF3705B}"
+     description=""
+     threadingModel="both"
+     progid="WL.WL_ExternalContext.1">
+    <progid>WL.WL_ExternalContext</progid>
+ </comClass>
+ <comClass
+     clsid="{6092CC1B-F13E-44CF-B8CA-788EA3D791AE}"
+     description=""
+     threadingModel="both"
+     progid="WL.WL_SessionContext.1">
+    <progid>WL.WL_SessionContext</progid>
+ </comClass>
+ <comClass
+     clsid="{64C09C4C-4DD2-4414-92EC-2C24561EF2FA}"
+     description=""
+     threadingModel="both"
+     progid="WL.WL_AssignToManager.1">
+    <progid>WL.WL_AssignToManager</progid>
+ </comClass>
+ <comClass
+     clsid="{70879892-E862-11D3-BD7C-00A0C9ED6D19}"
+     description="WL_Manager Class"
+     threadingModel="both"
+     progid="WL.WL_Manager.1">
+    <progid>WL.WL_Manager</progid>
+ </comClass>
+ <comClass
+     clsid="{9815C630-F315-488F-AECC-D0ABA6981965}"
+     description=""
+     threadingModel="both"
+     progid="WL.WL_BackgroundContext.1">
+    <progid>WL.WL_BackgroundContext</progid>
+ </comClass>
+ <comClass
+     clsid="{9B44062E-ECE5-11D3-BD7F-00A0C9ED6D19}"
+     description="WL_MSTProvider Class"
+     threadingModel="both"
+     progid="WL.WL_MSTProvider.1">
+    <progid>WL.WL_MSTProvider</progid>
+ </comClass>
+ <comClass
+     clsid="{CDF9450E-6FF4-4CD9-9748-3A58F0260FE1}"
+     description=""
+     threadingModel="both"
+     progid="WL.WL_WorklistContext.1">
+    <progid>WL.WL_WorklistContext</progid>
+ </comClass>
+ <comClass
+     clsid="{DB5C407A-86F8-40EC-A72A-7E61D70D6F10}"
+     description=""
+     threadingModel="both"
+     progid="WL.WL_UIStates.1">
+    <progid>WL.WL_UIStates</progid>
+ </comClass>
+ <typelib
+     tlbid="{4BA5B8AD-E861-11D3-BD7C-00A0C9ED6D19}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="WLP.DLL" hashalg="SHA1">
+ <typelib
+     tlbid="{896E9FDB-5A1D-11D3-BD9E-00A0C982CE3E}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="WLPP.DLL" hashalg="SHA1">
+</file>
+
+<file name="ALGPERF.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{A9E88B38-2742-42ED-9CD5-A8161C13F3F2}"
+     description="ALGPERF_PerfusionGDAType Class"
+     threadingModel="both"
+     progid="ALGPERF.ALGPERF_PerfusionGDAType.1">
+    <progid>ALGPERF.ALGPERF_PerfusionGDAType</progid>
+ </comClass>
+ <typelib
+     tlbid="{42E78CE8-3BC1-4EA5-948A-D4493039C989}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="ICN.DLL" hashalg="SHA1">
+</file>
+
+<file name="WND.DLL" hashalg="SHA1">
+</file>
+
+<file name="WNDA.DLL" hashalg="SHA1">
+</file>
+
+<file name="WNDM.DLL" hashalg="SHA1">
+</file>
+
+<file name="MINFRA.DLL" hashalg="SHA1">
+</file>
+
+<file name="ACMDLIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="AWINLIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="CFGLIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="DSELLIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="IGALIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="QELIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="SCMDLIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="SMLIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="UILIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="UPLIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="UTL2LIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="XNODELIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="WLLIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="SECMCOMLIB.DLL" hashalg="SHA1">
+</file>
+
+<file name="DEVCOMPONENTS.DOTNETBAR2.DLL" hashalg="SHA1">
+</file>
+
+<file name="DEVEXPRESS.DATA.V7.1.DLL" hashalg="SHA1">
+</file>
+
+<file name="DEVEXPRESS.UTILS.V7.1.DLL" hashalg="SHA1">
+</file>
+
+<file name="DEVEXPRESS.XTRAEDITORS.V7.1.DLL" hashalg="SHA1">
+</file>
+
+<file name="DEVEXPRESS.XTRAGRID.V7.1.DLL" hashalg="SHA1">
+</file>
+
+<file name="DEVEXPRESS.OFFICESKINS.V7.1.DLL" hashalg="SHA1">
+</file>
+
+<file name="DEVEXPRESS.XTRABARS.V7.1.DLL" hashalg="SHA1">
+</file>
+
+<file name="DSOFRAMER.OCX" hashalg="SHA1">
+ <comClass
+     clsid="{00460182-9E5E-11d5-B7C8-B8269041DD57}"
+     description="DSO Framer Control Object"
+     tlbid="{00460180-9E5E-11D5-B7C8-B8269041DD57}"
+     threadingModel="apartment"
+     miscStatus="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst"
+     progid="DSOFramer.FramerControl"/>
+ <typelib
+     tlbid="{00460180-9E5E-11D5-B7C8-B8269041DD57}"
+     version="1.3"
+     helpdir=""
+     flags="control,hasdiskimage"/>
+</file>
+
+<file name="AXINTEROP.DSOFRAMER.DLL" hashalg="SHA1">
+</file>
+
+<file name="INTEROP.DSOFRAMER.DLL" hashalg="SHA1">
+</file>
+
+<file name="INTEROP.SHDOCVW.DLL" hashalg="SHA1">
+</file>
+
+<file name="MWF.DLL" hashalg="SHA1">
+</file>
+
+<file name="REPCOM.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{113EBB8F-0652-4E10-825A-0DE369D5777B}"
+     description=""
+     threadingModel="both"
+     progid="REPCOM.REPCOM_Interface.1">
+    <progid>REPCOM.REPCOM_Interface</progid>
+ </comClass>
+ <typelib
+     tlbid="{5C3A5891-BD79-4378-8CBF-A895833A284B}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="REPEDIT.DLL" hashalg="SHA1">
+</file>
+
+<file name="REPINFRA.DLL" hashalg="SHA1">
+</file>
+
+<file name="REPMAIN.DLL" hashalg="SHA1">
+</file>
+
+<file name="REPSTOR.DLL" hashalg="SHA1">
+</file>
+
+<file name="REPUI.DLL" hashalg="SHA1">
+</file>
+
+<file name="SPEECH.DLL" hashalg="SHA1">
+</file>
+
+<file name="CLSPEECH.DLL" hashalg="SHA1">
+</file>
+
+<file name="ACCESS.DLL" hashalg="SHA1">
+</file>
+
+<file name="DB.DLL" hashalg="SHA1">
+</file>
+
+<file name="DIDB.DLL" hashalg="SHA1">
+</file>
+
+<file name="CDMI.DLL" hashalg="SHA1">
+</file>
+
+<file name="CLFTP.DLL" hashalg="SHA1">
+</file>
+
+<file name="CONN.DLL" hashalg="SHA1">
+</file>
+
+<file name="CONNAPP.DLL" hashalg="SHA1">
+</file>
+
+<file name="SCC.DLL" hashalg="SHA1">
+</file>
+
+<file name="TNL.DLL" hashalg="SHA1">
+</file>
+
+<file name="SVC.DLL" hashalg="SHA1">
+</file>
+
+<file name="SECM.DLL" hashalg="SHA1">
+</file>
+
+<file name="SECMCOM.DLL" hashalg="SHA1">
+ <comClass
+     clsid="{4258C248-7E59-40DC-B17A-CEF5A62624EC}"
+     description="CPermission Object"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     threadingModel="apartment"
+     progid="SECMCOM.Permission.1">
+    <progid>SECMCOM.Permission</progid>
+ </comClass>
+ <comClass
+     clsid="{6BFB4929-1EB8-4500-BDC8-F36DF79D5257}"
+     description="CUserDetails Object"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     threadingModel="apartment"
+     progid="SECMCOM.UserDetails.1">
+    <progid>SECMCOM.UserDetails</progid>
+ </comClass>
+ <comClass
+     clsid="{8C3B48FB-4EA5-48CF-AF9C-E5E243A42B19}"
+     description="CContactDetails Object"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     threadingModel="apartment"
+     progid="SECMCOM.ContactDetails.1">
+    <progid>SECMCOM.ContactDetails</progid>
+ </comClass>
+ <comClass
+     clsid="{94A038FA-16E3-47B2-894A-7718E0A5755A}"
+     description="CComSecurityManager Object"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     threadingModel="apartment"
+     progid="SECMCOM.ComSecurityManager.1">
+    <progid>SECMCOM.ComSecurityManager</progid>
+ </comClass>
+ <comClass
+     clsid="{94A0C71F-935E-4F29-A427-8F557B2B656F}"
+     description="CGroupDetails Object"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     threadingModel="apartment"
+     progid="SECMCOM.GroupDetails.1">
+    <progid>SECMCOM.GroupDetails</progid>
+ </comClass>
+ <comClass
+     clsid="{DC1A78C0-D1D1-44F6-A5A7-876A7C31378C}"
+     description="CLoginPreferences Object"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     threadingModel="apartment"
+     progid="SECMCOM.LoginPreferences.1">
+    <progid>SECMCOM.LoginPreferences</progid>
+ </comClass>
+ <typelib
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     version="1.0"
+     helpdir=""
+     flags="hasdiskimage"/>
+</file>
+
+<file name="IP_Mammo.dll" hashalg="SHA1">
+</file>
+
+<comInterfaceExternalProxyStub 
+     iid="{010CD021-7DFC-45D6-BDEC-9A44B254C673}"
+     name="vbalGrid"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{021814F9-5ADD-11D3-BDA1-00A0C982CE3E}"
+     name="WLP_IAutoWindowingCmd"
+     tlbid="{896E9FDB-5A1D-11D3-BD9E-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{02181518-5ADD-11D3-BDA1-00A0C982CE3E}"
+     name="WLP_IInverseWindowingCmd"
+     tlbid="{896E9FDB-5A1D-11D3-BD9E-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0218151E-5ADD-11D3-BDA1-00A0C982CE3E}"
+     name="WLP_IResetWindowingCmd"
+     tlbid="{896E9FDB-5A1D-11D3-BD9E-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{022F2EB6-C633-4A1F-97D4-A202C42DAA04}"
+     name="XCMD_AppLoadToVueMotionCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{02D28DB8-C1AC-476C-A806-DC723A2078A1}"
+     name="ITOBL_ISpaRoiHandler"
+     tlbid="{6DB95A24-1C8F-11D5-BD97-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0304FF43-33E6-4512-9AE8-6E743B06678A}"
+     name="XCMD_AppSignCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{03722FCD-43EE-11D3-BD61-00A0C982CE3E}"
+     name="SCMD_IWindowPaintCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{03722FD0-43EE-11D3-BD61-00A0C982CE3E}"
+     name="SCMD_IWindowCloseCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{03722FD6-43EE-11D3-BD61-00A0C982CE3E}"
+     name="SCMD_IWindowMoveCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{03723023-43EE-11D3-BD61-00A0C982CE3E}"
+     name="SCMD_IWindowResizeCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{03723026-43EE-11D3-BD61-00A0C982CE3E}"
+     name="SCMD_IKeyboardCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{03723029-43EE-11D3-BD61-00A0C982CE3E}"
+     name="SCMD_ITimerCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{03BE4C1F-21EE-4F2A-A238-8E8D1189A108}"
+     name="DPW_RulesCtl"
+     tlbid="{5F7B9BB8-C9F9-11D4-A20F-00D0B7A93974}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{04CEB9C6-A800-44EC-A1A9-23895765CCA7}"
+     name="cGridCell"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FD2-1BF9-11D2-BAE8-00104B9E0792}"
+     name="ISSBase"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FD3-1BF9-11D2-BAE8-00104B9E0792}"
+     name="ISSOptionBase"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FD4-1BF9-11D2-BAE8-00104B9E0792}"
+     name="ISSButtonBase"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FD5-1BF9-11D2-BAE8-00104B9E0792}"
+     name="ISSFrameBase"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FD6-1BF9-11D2-BAE8-00104B9E0792}"
+     name="ISSFrame"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FD7-1BF9-11D2-BAE8-00104B9E0792}"
+     name="DSSFrameEvents"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FD9-1BF9-11D2-BAE8-00104B9E0792}"
+     name="ISSPanel"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FDB-1BF9-11D2-BAE8-00104B9E0792}"
+     name="DSSPanelEvents"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FDD-1BF9-11D2-BAE8-00104B9E0792}"
+     name="ISSOption"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FDE-1BF9-11D2-BAE8-00104B9E0792}"
+     name="DSSOptionEvents"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FE0-1BF9-11D2-BAE8-00104B9E0792}"
+     name="ISSCheck"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FE1-1BF9-11D2-BAE8-00104B9E0792}"
+     name="DSSCheck"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FE2-1BF9-11D2-BAE8-00104B9E0792}"
+     name="DSSCheckEvents"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FE4-1BF9-11D2-BAE8-00104B9E0792}"
+     name="ISSRibbon"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FE5-1BF9-11D2-BAE8-00104B9E0792}"
+     name="DSSRibbonEvents"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FE7-1BF9-11D2-BAE8-00104B9E0792}"
+     name="ISSCommand"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FE8-1BF9-11D2-BAE8-00104B9E0792}"
+     name="DSSCommandEvents"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{065E6FEA-1BF9-11D2-BAE8-00104B9E0792}"
+     name="DSSPanel"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{085089F2-4C20-4AF7-8CD3-8536A20FABB7}"
+     name="UI_MultiMon"
+     tlbid="{B7FF8178-44D3-4D4E-882D-78966F7C8C8F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{08DE72F3-C2E2-4408-BFF6-9172EE9CB48D}"
+     name="DPW_RulesCtl"
+     tlbid="{5F7B9BB8-C9F9-11D4-A20F-00D0B7A93974}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{09E089DF-759A-11D3-BD84-00A0C9ECF91E}"
+     name="DS_IDSCContainer"
+     tlbid="{271A9AB1-7193-11D3-BD7A-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0CDAE11B-43E1-11D3-BD61-00A0C982CE3E}"
+     name="SCMD_IWindowFocusCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0CDAE130-43E1-11D3-BD61-00A0C982CE3E}"
+     name="SCMD_IWindowMousePresenceCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0D5D1B5F-605F-4A44-AD43-B349940729E8}"
+     name="ListBoxXEnums"
+     tlbid="{3DCCBF72-002E-49DD-93C2-0411C105535E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0D805E6E-6B74-4566-4562-02A3C936F61E}"
+     name="Mammo_IImageTypeProducer"
+     tlbid="{274FEE52-10DF-432E-99E5-F065961D208B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0D85676E-6210-54D4-4542-0830C936F91E}"
+     name="Mammo_IDataSource"
+     tlbid="{274FEE52-10DF-432E-99E5-F065961D208B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0D8A8E6E-6B70-51D4-4566-02A0C936F91E}"
+     name="Mammo_IImageType"
+     tlbid="{274FEE52-10DF-432E-99E5-F065961D208B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0D8A8E6E-6B75-11D3-BD75-00A0C9ECF91E}"
+     name="ITPAL_IPaletteImageType"
+     tlbid="{0DA5AB6F-6B72-11D3-BD74-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0D9C13FF-872E-481C-BC3E-F1F0D2BC2DB8}"
+     name="XUI_SysPushToClientCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0F2F3DD5-6157-43E4-A721-54490C87F388}"
+     name="VDP_IPointOfInterestProducer"
+     tlbid="{0543FDA4-323D-4424-8150-1F92875652B0}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{0F39854E-904A-4192-98BA-1A80CB06C342}"
+     name="IMGT_IAppCopyPasteCmd"
+     tlbid="{E200C8DB-595F-11D3-BD5E-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{119B427C-DC46-4FB3-B3EB-A36A06B8B5E6}"
+     name="GRA_IMultiPointHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{13818D90-BB7B-4328-BF56-FE87978D2910}"
+     name="IComboList"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{13CD4E67-5B05-11D3-BD62-00A0C9ECF91E}"
+     name="IMGT_IProducer"
+     tlbid="{E200C8DB-595F-11D3-BD5E-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{14179103-E3C7-4D0F-8415-9EF3E54A9B11}"
+     name="IBand"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{148BA79F-6ADC-11D5-A28C-00D0B7A93974}"
+     name="MouseWheel"
+     tlbid="{1449B9F9-08A9-4FD3-B437-44067322968C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{148BA7A1-6ADC-11D5-A28C-00D0B7A93974}"
+     name="MouseWheel"
+     tlbid="{1449B9F9-08A9-4FD3-B437-44067322968C}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1623900A-EA90-487A-827F-5DF25C2357F3}"
+     name="UP_IMonitorConfInfo"
+     tlbid="{88CEA5F7-C202-11D3-BD2D-00C04F6047D8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{16519FAA-DC4E-87D1-8EF3-ABCDAF400123}"
+     name="UP_ILocalCfg"
+     tlbid="{88CEA5F7-C202-11D3-BD2D-00C04F6047D8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{16519FB0-4C08-48D1-9E03-B1C2A8400F3C}"
+     name="UP_IHWManager"
+     tlbid="{88CEA5F7-C202-11D3-BD2D-00C04F6047D8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1899FD9A-0FFB-4A89-A7D4-0462913C91ED}"
+     name="LM2_ICOMLRAsymmetricPanelRow"
+     tlbid="{A32348E1-9234-4A25-99C5-E0F86813CB5A}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1904B346-EF1F-4BB8-9D23-F77807AA2CD7}"
+     name="TISDF_ICollapseTissueHandler"
+     tlbid="{B14424CE-CCF2-41A3-B5B2-8756BA36A1F2}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{19456EC4-5AB5-11D3-BDA1-00A0C982CE3E}"
+     name="WLP_IDeltaWindowingCmd"
+     tlbid="{896E9FDB-5A1D-11D3-BD9E-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{196878B0-6E1C-4529-9758-B4D881C0AB96}"
+     name="DisplayUnitCTL"
+     tlbid="{345C2F54-5B55-11D6-BF09-00D0B7A93974}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{197BB5D8-07BE-4337-8DED-B766950AEAA3}"
+     name="Mammo_INippleCorrectionHandler"
+     tlbid="{274FEE52-10DF-432E-99E5-F065961D208B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1A72732A-823B-4855-A475-6F6930D19BE7}"
+     name="cShellSortTGridCells"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1AAB069A-A367-47EE-84CF-90674CF843BD}"
+     name="GSI_IAppRegChangeCmd"
+     tlbid="{B612E685-E3F1-429B-B83C-C3FF633FBE02}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1C203F11-95AD-11D0-A84B-00A0247B735B}"
+     name="ISSTree"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1C203F12-95AD-11D0-A84B-00A0247B735B}"
+     name="DSSTreeEvents"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1C203F14-95AD-11D0-A84B-00A0247B735B}"
+     name="ISSNodes"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1C203F18-95AD-11D0-A84B-00A0247B735B}"
+     name="ISSNode"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1C203F1C-95AD-11D0-A84B-00A0247B735B}"
+     name="ISSSelectedNodes"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1C203F20-95AD-11D0-A84B-00A0247B735B}"
+     name="ISSFetchBuffer"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1C203F27-95AD-11D0-A84B-00A0247B735B}"
+     name="ISSImage"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1C203F29-95AD-11D0-A84B-00A0247B735B}"
+     name="ISSImagesCollection"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1D20587B-1FA4-48C3-97D9-A91D38A4646F}"
+     name="XCMD_AppCleanCacheCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1D7CBF8B-5A05-4B3A-B267-346B583129C6}"
+     name="XCMD_AppReceiveStudiesCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1F28A271-2F94-496E-AB51-6EAA0C886A84}"
+     name="ILoginPreferences"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{1F8DB013-F91D-48FC-B199-EE43F32CAC4C}"
+     name="AE_AppLogoutCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{20544409-4744-56D3-2662-00A36982CE3E}"
+     name="REL_IRelationCmd"
+     tlbid="{274FEE52-0544-5326-99E6-F065231D268B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{212989D9-6C4B-11D3-BD77-00A0C9ECF91E}"
+     name="ITPAL_IProducer"
+     tlbid="{0DA5AB6F-6B72-11D3-BD74-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2255A277-D23F-42BC-9962-2F6AC8087340}"
+     name="ccrpDtp"
+     tlbid="{753FEE6F-A545-4EAA-AAC8-87512ED29F21}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{23D39B52-8CC0-4C2D-AFEB-3F442EBC0BCC}"
+     name="SCN_IAppExtSetStatusCmd"
+     tlbid="{A32B8230-563E-11D3-827D-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{26054409-4745-66D3-236C-00A0C982CE3E}"
+     name="REL_IProducer"
+     tlbid="{274FEE52-0544-5326-99E6-F065231D268B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{26624609-47F8-11D3-BD6C-00A0C982CE3E}"
+     name="PNL_IBaseProducer"
+     tlbid="{26624608-47F8-11D3-BD6C-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{271A9AB2-7193-11D3-BD7A-00A0C9ECF91E}"
+     name="DS_IDataSource"
+     tlbid="{271A9AB1-7193-11D3-BD7A-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{271A9AB8-7193-11D3-BD7A-00A0C9ECF91E}"
+     name="DS_IImageDataSource"
+     tlbid="{271A9AB1-7193-11D3-BD7A-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{271A9ABB-7193-11D3-BD7A-00A0C9ECF91E}"
+     name="DS_I2DDataSource"
+     tlbid="{271A9AB1-7193-11D3-BD7A-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{271A9ABE-7193-11D3-BD7A-00A0C9ECF91E}"
+     name="DS_I3DDataSource"
+     tlbid="{271A9AB1-7193-11D3-BD7A-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{278553E1-406F-401E-A2AB-400501715C2D}"
+     name="XCMD_AppGlobalQueryCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2871306F-2375-4CA4-82F2-6243D501845C}"
+     name="ITVD_IStenosisProducer"
+     tlbid="{0AABB843-AF05-4987-9AC1-7E73E7B1A39C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{29C5F4EF-9723-4649-8E62-0992D8ECCF3E}"
+     name="_ppgGeneral"
+     tlbid="{3DCCBF72-002E-49DD-93C2-0411C105535E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2A4622B4-E344-4FAB-ABEC-590ED74EDD9A}"
+     name="DPW_HistoryData"
+     tlbid="{5F7B9BB8-C9F9-11D4-A20F-00D0B7A93974}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2CD882AA-6370-11D3-BD75-00A0C9D4BD79}"
+     name="GRA_IStrLineProducer"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2CF9F29D-A52B-4C23-A70A-18BF99FCA87B}"
+     name="donectlnew"
+     tlbid="{649ECC79-2977-11D4-BD37-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2DFAB4FC-5F75-11D3-827F-00A0C982CB4C}"
+     name="SCN_IAppExitCmd"
+     tlbid="{A32B8230-563E-11D3-827D-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{2F6DAEF4-BFA1-400A-B5CA-4C247AD763B4}"
+     name="MIPGDA_IAppChangeLayoutCmd"
+     tlbid="{B1713750-E183-11D5-B34D-00D0B7A96388}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{30F21EAA-B687-11D4-9A46-444553540001}"
+     name="ImageFX"
+     tlbid="{30F21E58-B687-11D4-9A46-444553540001}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{30F21EAB-B687-11D4-9A46-444553540001}"
+     name="ImageFX"
+     tlbid="{30F21E58-B687-11D4-9A46-444553540001}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{30F671C4-6102-45F3-B7C0-FA25D1A8DC63}"
+     name="XCMD_AppDoneTranscribeCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{31B7DB51-02E1-11D3-BD3E-00A0C9D4BB53}"
+     name="SLC_ISlice"
+     tlbid="{31B7DB28-02E1-11D3-BD3E-00A0C9D4BB53}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{330545D3-5FAB-11D3-BDA8-00A0C982CE3E}"
+     name="WLP_IAbsoluteWindowingCmd"
+     tlbid="{896E9FDB-5A1D-11D3-BD9E-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{33790CF0-99FA-4D2D-BC28-0A7D5B90482B}"
+     name="ChildWindow"
+     tlbid="{3C436295-0DC2-4B54-A3AE-C5A98AB5A93A}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3478583A-3A00-11D4-99CB-C0D449C10001}"
+     name="NumberBox"
+     tlbid="{34785839-3A00-11D4-99CB-C0D449C10001}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3478583F-3A00-11D4-99CB-C0D449C10001}"
+     name="NumberBox"
+     tlbid="{34785839-3A00-11D4-99CB-C0D449C10001}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{354BE71C-4409-11D3-BD62-00A0C982CE3E}"
+     name="SCMD_IMouseButtonCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{35DA37C1-0E47-11D6-BEDF-00D0B7A93974}"
+     name="DCT_IAppDCTErrorCMD"
+     tlbid="{A672A3F3-BD72-11D5-BD90-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{363A0E3B-4AF0-4C7B-B598-1E40222FBD2D}"
+     name="IBands"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{363D7E32-71C0-43AB-9FB4-53757191822F}"
+     name="WIZ_PageController"
+     tlbid="{5D072307-5B7C-43C1-9B00-4D20746792FA}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{36CF8667-5F7B-11D3-BD69-00A0C9ECF91E}"
+     name="IMGT_IImageType"
+     tlbid="{E200C8DB-595F-11D3-BD5E-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{391237E3-4414-11D3-BD63-00A0C982CE3E}"
+     name="SCMD_IDragStartCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{391237E6-4414-11D3-BD63-00A0C982CE3E}"
+     name="SCMD_IDragOverCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{391237E9-4414-11D3-BD63-00A0C982CE3E}"
+     name="SCMD_IDragEnterCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{391237EC-4414-11D3-BD63-00A0C982CE3E}"
+     name="SCMD_IDropCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{396F7AC8-A0DD-11D3-93EC-00C0DFE7442A}"
+     name="vbalImageList"
+     tlbid="{396F7AC0-A0DD-11D3-93EC-00C0DFE7442A}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{396F7ACE-A0DD-11D3-93EC-00C0DFE7442A}"
+     name="vbalImageList"
+     tlbid="{396F7AC0-A0DD-11D3-93EC-00C0DFE7442A}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{396F7AD0-A0DD-11D3-93EC-00C0DFE7442A}"
+     name="_ppgImages"
+     tlbid="{396F7AC0-A0DD-11D3-93EC-00C0DFE7442A}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{396F7AD4-A0DD-11D3-93EC-00C0DFE7442A}"
+     name="_ppgControl"
+     tlbid="{396F7AC0-A0DD-11D3-93EC-00C0DFE7442A}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3A217FAB-3CE0-4934-A9C0-B8B3E17C016C}"
+     name="UP_IUserDetails"
+     tlbid="{88CEA5F7-C202-11D3-BD2D-00C04F6047D8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3C255E13-561C-11D3-BD95-00A0C982CE3E}"
+     name="UTL2_ILongVector"
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3C255E14-561C-11D3-BD95-00A0C982CE3E}"
+     name="UTL2_IBSTRVector"
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3C34AF19-F4A4-4C88-ABCA-D8EE51C5B01F}"
+     name="DisplayUnitCTL"
+     tlbid="{345C2F54-5B55-11D6-BF09-00D0B7A93974}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3CB5523A-C134-11D4-A201-00D0B7A93974}"
+     name="StepNavigationCtl"
+     tlbid="{59DCDC05-C05F-11D4-A200-00D0B7A93974}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3CB5523B-C134-11D4-A201-00D0B7A93974}"
+     name="StepNavigationCtl"
+     tlbid="{59DCDC05-C05F-11D4-A200-00D0B7A93974}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3D346618-76F8-11D3-BD7E-00A0C9D4BD79}"
+     name="GRA_ICursorProducer"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3D34661B-76F8-11D3-BD7E-00A0C9D4BD79}"
+     name="GRA_ICursorHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3F1429CE-A9E4-11D3-96E6-871A42DC6E3F}"
+     name="Line3D"
+     tlbid="{E1C81BDB-A9E1-11D3-96E6-871A42DC6E3F}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3F1429CF-A9E4-11D3-96E6-871A42DC6E3F}"
+     name="Line3D"
+     tlbid="{E1C81BDB-A9E1-11D3-96E6-871A42DC6E3F}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{3FB7E125-C812-4E8F-9F9B-3A5285E7FBA4}"
+     name="ITool"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42382A7A-4A69-11D3-BD72-00A0C9D4BD79}"
+     name="GM_IAppChangeGroupsCmd"
+     tlbid="{70FB7E6F-49A1-11D3-BD70-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{429D0A0D-5BA9-49B1-B778-CED5FA3B9091}"
+     name="ListBoxX"
+     tlbid="{3DCCBF72-002E-49DD-93C2-0411C105535E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB6997-770D-11D3-BD7F-00A0C9D4BD69}"
+     name="GRA_IFreeROIProducer"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB799A-770D-11D3-BD7F-00A0C9D4BD69}"
+     name="GRA_IFreeROIHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB8962-770D-11D3-BD7F-00A0C9D4BD79}"
+     name="GRA_ITextProducer"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB8965-770D-11D3-BD7F-00A0C9D4BD79}"
+     name="GRA_ITextHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB8974-770D-11D3-BD7F-00A0C9D4BD79}"
+     name="GRA_IArrowHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB8978-770D-11D3-BD7F-00A0C9D4BD79}"
+     name="GRA_IArrowProducer"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB8980-770D-11D3-BD7F-00A0C9D4BD79}"
+     name="GRA_IPelvisMeasurementProducer"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB8981-770D-11D3-BD7F-00A0C9D4BD79}"
+     name="GRA_IPelvisMeasurementHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB898A-770D-11D3-BD7F-00A0C9D4BD79}"
+     name="GRA_IEllipseHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB898D-770D-11D3-BD7F-00A0C9D4BD79}"
+     name="GRA_IEllipseProducer"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB8997-770D-11D3-BD7F-00A0C9D4BD79}"
+     name="GRA_ISquareProducer"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{42FB899A-770D-11D3-BD7F-00A0C9D4BD79}"
+     name="GRA_ISquareHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{43E2D61A-3776-4EBE-B345-07CECEA539BB}"
+     name="IUserDetails"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4426C6DA-3A81-41E5-A2E0-772322DBEFD1}"
+     name="XCMD_AppDictateCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{446F5AEE-9B61-49F6-88AC-EFAFBCCDD603}"
+     name="UTL2_IStringMap"
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{447B2A88-4218-46E4-857C-A179E2CD1A25}"
+     name="ImgUnitCtl"
+     tlbid="{345C2F54-5B55-11D6-BF09-00D0B7A93974}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{45510A15-6E9A-44AA-B671-B0A67824D35A}"
+     name="ITOBL_ISpaRoiProducer"
+     tlbid="{6DB95A24-1C8F-11D5-BD97-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4591B608-160C-4EC4-8542-7CCCABAEB79A}"
+     name="AE_IListener"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{47A1BDF4-5A17-11D3-BD9E-00A0C982CE3E}"
+     name="WLP_IProducer"
+     tlbid="{896E9FDB-5A1D-11D3-BD9E-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{47FE6A6D-0C45-45E1-8375-76D2DA7A7C95}"
+     name="WIZ_IWizardPage"
+     tlbid="{5D072307-5B7C-43C1-9B00-4D20746792FA}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{484656C3-6A7A-11D3-BD72-00A0C9ECF91E}"
+     name="DM_IRenditionFinishedCmd"
+     tlbid="{EFE52F33-6694-11D3-BD71-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{484656C6-6A7A-11D3-BD72-00A0C9ECF91E}"
+     name="DM_IPriorityChangeCmd"
+     tlbid="{EFE52F33-6694-11D3-BD71-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{484656C9-6A7A-11D3-BD72-00A0C9ECF91E}"
+     name="DM_ISuspendDrawingCmd"
+     tlbid="{EFE52F33-6694-11D3-BD71-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{484656CC-6A7A-11D3-BD72-00A0C9ECF91E}"
+     name="DM_IStartDrawingCmd"
+     tlbid="{EFE52F33-6694-11D3-BD71-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{484656E8-6A7A-11D3-BD72-00A0C9ECF91E}"
+     name="DM_IProducer"
+     tlbid="{EFE52F33-6694-11D3-BD71-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{484656F8-6A7A-11D3-BD72-00A0C9ECF91E}"
+     name="SCMD_IRenditionCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{485C576B-49BF-11D3-BD70-00A0C9D4BD79}"
+     name="GM_IAppLoadCompleteCmd"
+     tlbid="{70FB7E6F-49A1-11D3-BD70-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{49476239-CDAF-418E-8A47-C5C242822351}"
+     name="IImageMgr"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{49C34CFC-65F0-11D3-BD6F-00A0C9ECF91E}"
+     name="IMGT_IChangeCursorCmd"
+     tlbid="{E200C8DB-595F-11D3-BD5E-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{49CF3809-48CE-11D3-BD6F-00A0C982CE3E}"
+     name="SCMD_IApplicationCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{49D45DFD-65D1-11E4-BD6F-00A0C9ECF91E}"
+     name="IMGT_IAppNeutralActivatedCmd"
+     tlbid="{E200C8DB-595F-11D3-BD5E-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4B280649-C616-41DD-AA7E-B89799E51FDC}"
+     name="DPW_HistoryData"
+     tlbid="{C33AEA7A-CD22-4DBA-B0E7-D6C5912CB403}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4B56AC40-BDFD-4C3C-BC73-90FCEB0DD608}"
+     name="ISubclass"
+     tlbid="{BB35AEF3-E525-4F8B-81F2-511FF805ABB1}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4C3EF810-077F-11D3-BD45-00A0C9D4BB53}"
+     name="UTL2_IPtrSList"
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4C3EF821-077F-11D3-BD45-00A0C9D4BB53}"
+     name="UTL2_IPtrSListIterator"
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4E211FBF-5871-11D3-827D-00A0C982CB4C}"
+     name="SCN_IScene"
+     tlbid="{A32B8230-563E-11D3-827D-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4F13DF3E-F3B1-4B80-8288-47E67A728533}"
+     name="ITVD_IPoiElementProducer"
+     tlbid="{0AABB843-AF05-4987-9AC1-7E73E7B1A39C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{4FB7D37E-D5E8-4EB4-AD74-0FFF1AACC5E3}"
+     name="IPARIS2"
+     tlbid="{B70B353C-DEA8-4A53-816D-88FEDAB8B871}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{51C83068-EDCB-4E93-9C0F-9A740E58FC98}"
+     name="Mammo_IRefLinesHandler"
+     tlbid="{274FEE52-10DF-432E-99E5-F065961D208B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{537C2FD9-4571-4667-9CDE-196EDCDFC5D7}"
+     name="cHeaderControl"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{54A91A01-85E3-499E-AB91-D4F9393FB7AF}"
+     name="DPW_EventsContainer"
+     tlbid="{C33AEA7A-CD22-4DBA-B0E7-D6C5912CB403}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{56894298-139B-11D4-BDAF-00A0C9ED6D19}"
+     name="cKeyboardlParam"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5689429A-139B-11D4-BDAF-00A0C9ED6D19}"
+     name="GHook"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{568942A1-139B-11D4-BDAF-00A0C9ED6D19}"
+     name="IWindowsHook"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{568942A8-139B-11D4-BDAF-00A0C9ED6D19}"
+     name="cMouselParam"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{568942AA-139B-11D4-BDAF-00A0C9ED6D19}"
+     name="cGetMsglParam"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{568942AC-139B-11D4-BDAF-00A0C9ED6D19}"
+     name="cCallWndProclParam"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{568942AE-139B-11D4-BDAF-00A0C9ED6D19}"
+     name="cCallWndProcRetlParam"
+     tlbid="{56894297-139B-11D4-BDAF-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{56B4BDFC-5AC1-11D3-BD60-00A0C9ECF91E}"
+     name="IMGT_IOperationModeCmd"
+     tlbid="{E200C8DB-595F-11D3-BD5E-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{57ADD897-01D9-409C-BE3E-175E79FAEFD3}"
+     name="WizardCtl"
+     tlbid="{5D072307-5B7C-43C1-9B00-4D20746792FA}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5C720874-645A-11D3-8281-00A0C982CB4C}"
+     name="SCN_IAppOpenCmd"
+     tlbid="{A32B8230-563E-11D3-827D-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5DC445BB-0E59-41E0-AEB5-5CD1A0BA2E03}"
+     name="ITVD_IStenosisHandler"
+     tlbid="{0AABB843-AF05-4987-9AC1-7E73E7B1A39C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5DF78161-0BE7-428F-9F81-F63A38C85A0C}"
+     name="SPA_IPanToPointCmd"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5FE13093-DC68-11D2-BD29-00A0C982CB4C}"
+     name="UTL2_IPtrVector"
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{5FE13100-DC68-11D2-BD29-00A0C982CB4C}"
+     name="UTL2_IScroller"
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{60138012-5924-4DA4-921E-C93EC6D3EB00}"
+     name="GRA_IRelateToolHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{610EC511-F167-497D-8E71-84966AE7302A}"
+     name="TISDF_IWindowingHighlightProducer"
+     tlbid="{B14424CE-CCF2-41A3-B5B2-8756BA36A1F2}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{61688B46-246F-4B34-8A3C-B491EE4D88C1}"
+     name="CImageList"
+     tlbid="{72D18DD4-0DA7-11D2-8E21-00B404C10000}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{6261326D-5772-4605-A8B4-E31832802EEA}"
+     name="IActiveBar3Events"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{62FCAC31-2581-11D2-BAF1-00104B9E0792}"
+     name="DSSOption"
+     tlbid="{065E6FD1-1BF9-11D2-BAE8-00104B9E0792}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{65903EA2-066B-430E-9481-29AD7707EA72}"
+     name="XCMD_AppClearFromLocalCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{674D092D-8878-4B4C-8B79-3EF5E1805D39}"
+     name="TISDF_IScannerBedRemovalManager"
+     tlbid="{B14424CE-CCF2-41A3-B5B2-8756BA36A1F2}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{6A019FD7-FCFA-11D5-B353-00D0B7A96388}"
+     name="TISSUE_IDataSource"
+     tlbid="{4C795EC6-FCFA-11D5-B353-00D0B7A96388}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{6B976285-3692-11D0-9B8A-0000C0F04C96}"
+     name="ISSDataObjectFiles"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{6B976287-3692-11D0-9B8A-0000C0F04C96}"
+     name="ISSDataObject"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{6CB0A291-39F0-426B-9BFB-D8E7F6080E3A}"
+     name="DropDownCtl"
+     tlbid="{E08580C9-0BA8-11D4-BDA3-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{6F30F0DA-5EBB-11D3-BDA5-00A0C982CE3E}"
+     name="WLP_IHandler"
+     tlbid="{896E9FDB-5A1D-11D3-BD9E-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{6F413C33-D5B1-4B6F-AE4C-93BC4A1B6CE9}"
+     name="GRA_IRelateToolProducer"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{6FC149BD-8509-4965-83F4-8623D02B7DFC}"
+     name="MIPGDA_IVesselDefinitionManager"
+     tlbid="{B1713750-E183-11D5-B34D-00D0B7A96388}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{71FDA03C-622D-4120-889E-1131E6DB6E3F}"
+     name="DPW_EventsContainer"
+     tlbid="{C33AEA7A-CD22-4DBA-B0E7-D6C5912CB403}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{73A07222-776E-4287-BF2D-655D71C9F678}"
+     name="UI_MultiMon"
+     tlbid="{B7FF8178-44D3-4D4E-882D-78966F7C8C8F}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{748A81D1-8707-4BE4-9DCA-0F58FEF1E78C}"
+     name="IChildBands"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{76B1E80D-0613-4444-8806-95F376C9ED07}"
+     name="IPermission"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{76E2412A-73CA-4DDC-BCAE-A53769323376}"
+     name="AE_Actions"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{77A7097A-69A6-4DD3-A81F-6BD10BC60633}"
+     name="SPA_IZoomEnableCmd"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{77AC2D8F-2B40-4D8E-8F20-19A3AAC5B89C}"
+     name="cHeaderControl"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{78D0CE47-7C0A-11D3-BD2A-0090278D002D}"
+     name="CFG_ICFG"
+     tlbid="{54F5B0C3-7C0A-11D3-BD2A-0090278D002D}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{78D0CE49-7C0A-11D3-BD2A-0090278D002D}"
+     name="CFG_ITree"
+     tlbid="{54F5B0C3-7C0A-11D3-BD2A-0090278D002D}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{78EC6CA1-66D4-4B87-94B2-93A7A69A6BCC}"
+     name="ITools"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{796EB677-A67B-4C88-8E8C-6F71006928CA}"
+     name="IGroupDetails"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{79A0CC4C-DC4A-11D2-BD28-00A0C982CB4C}"
+     name="UTL2_IRect"
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{7AD63764-6B78-48B6-AD55-6DAD6985630A}"
+     name="AE_AppExitAppCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{7D3663E1-6B30-4A09-84C9-83762A114EE2}"
+     name="VDP_IPointOfInterestHandler"
+     tlbid="{0543FDA4-323D-4424-8150-1F92875652B0}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{7DDD3E25-5967-11D3-827F-00A0C982CB4C}"
+     name="SCN_IProducer"
+     tlbid="{A32B8230-563E-11D3-827D-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{7F1C664B-5587-44FC-911E-B5D6B227C24F}"
+     name="IShortCut"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{80410348-69B0-11D3-BD72-00A0C9ECF91E}"
+     name="DM_IDrawingHintCmd"
+     tlbid="{EFE52F33-6694-11D3-BD71-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{82173B74-C5C8-42A7-A899-F1D7B86016A7}"
+     name="VDP_IAppAddPointOfIntCmd"
+     tlbid="{0543FDA4-323D-4424-8150-1F92875652B0}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{824F3B39-4872-47AC-ACFB-7B1266CEA1A4}"
+     name="IComSecurityManager"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{82B659C0-75FE-4D83-B377-EAAF19899DF3}"
+     name="XCMD_AppTranscribeCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8509C03F-5050-4BA5-90F6-1A81B64F6A49}"
+     name="XCMD_AppDictateNoStudyCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{85F8CDD9-54A1-4DE8-9E72-9A4425CF2885}"
+     name="FormScroller"
+     tlbid="{BB35AEF3-E525-4F8B-81F2-511FF805ABB1}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{86715684-E6AF-4561-8AB2-FA0564AA9FA9}"
+     name="CFG_IIterators"
+     tlbid="{54F5B0C3-7C0A-11D3-BD2A-0090278D002D}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{88A54341-8A03-4F47-9A47-B11F9362BF1A}"
+     name="AE_AppHiddenCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8B735F4C-257C-4494-ADBB-9AB35F53CC8C}"
+     name="FILM_IHFDS"
+     tlbid="{BD5B3C24-FFCF-11D3-BD8B-00A0C9FB3988}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8C3D4AA1-2599-11D2-BAF1-00104B9E0792}"
+     name="IPane"
+     tlbid="{8C3D4AA0-2599-11D2-BAF1-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8C3D4AA3-2599-11D2-BAF1-00104B9E0792}"
+     name="IPanesCollection"
+     tlbid="{8C3D4AA0-2599-11D2-BAF1-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8C3D4AA5-2599-11D2-BAF1-00104B9E0792}"
+     name="ISSSplitter"
+     tlbid="{8C3D4AA0-2599-11D2-BAF1-00104B9E0792}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8C3D4AA6-2599-11D2-BAF1-00104B9E0792}"
+     name="DSSSplitterEvents"
+     tlbid="{8C3D4AA0-2599-11D2-BAF1-00104B9E0792}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8DB3952F-826A-4A6D-8D67-28AB3E568865}"
+     name="ScrollableContainer"
+     tlbid="{BB35AEF3-E525-4F8B-81F2-511FF805ABB1}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{8FAAA76C-C675-4117-A0D1-7BDB5C0082D7}"
+     name="PANELYL"
+     tlbid="{126E5473-A4FC-11D2-BD79-CC4506C10000}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{91DE1E66-7B4E-4652-A3DB-F140FBCA4390}"
+     name="FormScroller"
+     tlbid="{BB35AEF3-E525-4F8B-81F2-511FF805ABB1}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{92C5F7FB-DF75-4C13-82AC-B965BA3BA4CA}"
+     name="IParentUserControl"
+     tlbid="{3C436295-0DC2-4B54-A3AE-C5A98AB5A93A}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{94E65F57-4524-11D5-A271-00D0B7A93974}"
+     name="cDropDownToolWindow"
+     tlbid="{E08580C9-0BA8-11D4-BDA3-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9620B98E-43F2-11D3-BD1C-00A0C9ED6D19}"
+     name="ISubclass"
+     tlbid="{9620B98D-43F2-11D3-BD1C-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9620B991-43F2-11D3-BD1C-00A0C9ED6D19}"
+     name="GSubclass"
+     tlbid="{9620B98D-43F2-11D3-BD1C-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9620B993-43F2-11D3-BD1C-00A0C9ED6D19}"
+     name="CTimer"
+     tlbid="{9620B98D-43F2-11D3-BD1C-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9620B996-43F2-11D3-BD1C-00A0C9ED6D19}"
+     name="CTimer"
+     tlbid="{9620B98D-43F2-11D3-BD1C-00A0C9ED6D19}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{97BD7A15-77E0-11D2-8EAE-008048E27A77}"
+     name="DIsgGridEvents"
+     tlbid="{5D9D76CC-485B-47FB-9BA6-E11F93CB374D}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{989F525C-274F-40EC-A65F-4A68D536DFE5}"
+     name="IContactDetails"
+     tlbid="{8472FADB-532C-4027-B63B-82513B647AE8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{98B1019D-98C0-4211-8A40-99E44206332A}"
+     name="IsgGrid"
+     tlbid="{5D9D76CC-485B-47FB-9BA6-E11F93CB374D}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9930F941-A328-447D-9E84-9B04F5F684AA}"
+     name="IActiveBar3"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9A5ED011-B192-11D3-9382-0000B4BDB148}"
+     name="ITHBResizeSpecial"
+     tlbid="{9A5ED010-B192-11D3-9382-0000B4BDB148}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9A5ED013-B192-11D3-9382-0000B4BDB148}"
+     name="_THBResizeEvents"
+     tlbid="{9A5ED010-B192-11D3-9382-0000B4BDB148}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9A5ED014-B192-11D3-9382-0000B4BDB148}"
+     name="ITHBResize"
+     tlbid="{9A5ED010-B192-11D3-9382-0000B4BDB148}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9AA9D93E-FE1D-4D3B-BDA1-EBFB21CF85D9}"
+     name="ITVOLR_IWLPHandler"
+     tlbid="{BBDB61AC-68BB-11D5-BE53-0090278D2C56}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9AF4F7CD-0A11-403E-A5E7-31A7D62F61C4}"
+     name="vbalGrid"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9B25B2EE-5684-45B2-92BC-ED7182E21F6C}"
+     name="GRA_IScoutLinesProducer"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9B442DE3-4B81-4BAC-833D-D5AB5E77AC8B}"
+     name="SPA_IMMPerPixelZoomCmd"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9C7D4C0A-6360-11D3-BDAD-00A0C982CE3E}"
+     name="SPA_IDeltaPanCmd"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9E05576C-5DE5-1566-6D26-00A0C9E3F61E}"
+     name="IMGT_ILinkProducer"
+     tlbid="{E200C8DB-595F-11D3-BD5E-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9E5C576C-5DE3-1054-4566-00A669ECF236}"
+     name="PNL_IGDAReportProducer"
+     tlbid="{26624608-47F8-11D3-BD6C-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{9E5C576C-5DE3-11D3-BD66-00A0C9ECF91E}"
+     name="SPA_IProducer"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A1D7DF34-8B3F-4A8E-AC58-2A1CC36687BF}"
+     name="ITVD_IPoiElementHandler"
+     tlbid="{0AABB843-AF05-4987-9AC1-7E73E7B1A39C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A23393FC-638A-11D3-AFAF-A7609D77C427}"
+     name="clsIFceComp"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339426-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgPnlGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339427-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgAbout"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233942E-638A-11D3-AFAF-A7609D77C427}"
+     name="asxBars"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233942F-638A-11D3-AFAF-A7609D77C427}"
+     name="asxBars"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339431-638A-11D3-AFAF-A7609D77C427}"
+     name="asxSysButton"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339432-638A-11D3-AFAF-A7609D77C427}"
+     name="asxSysButton"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339434-638A-11D3-AFAF-A7609D77C427}"
+     name="asxButtonStrip"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339435-638A-11D3-AFAF-A7609D77C427}"
+     name="asxButtonStrip"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339437-638A-11D3-AFAF-A7609D77C427}"
+     name="asxFontLabel"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339438-638A-11D3-AFAF-A7609D77C427}"
+     name="asxFontLabel"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233943A-638A-11D3-AFAF-A7609D77C427}"
+     name="asxGenericContainer"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233943B-638A-11D3-AFAF-A7609D77C427}"
+     name="asxGenericContainer"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233943D-638A-11D3-AFAF-A7609D77C427}"
+     name="asxLabel"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233943E-638A-11D3-AFAF-A7609D77C427}"
+     name="asxLabel"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339440-638A-11D3-AFAF-A7609D77C427}"
+     name="asxLineHeaderEx"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339441-638A-11D3-AFAF-A7609D77C427}"
+     name="asxLineHeaderEx"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339443-638A-11D3-AFAF-A7609D77C427}"
+     name="asxMenuEvent"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339444-638A-11D3-AFAF-A7609D77C427}"
+     name="asxMenuEvent"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339446-638A-11D3-AFAF-A7609D77C427}"
+     name="asxToolButton"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339447-638A-11D3-AFAF-A7609D77C427}"
+     name="asxToolButton"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339449-638A-11D3-AFAF-A7609D77C427}"
+     name="asxPager"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233944A-638A-11D3-AFAF-A7609D77C427}"
+     name="asxPager"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233944C-638A-11D3-AFAF-A7609D77C427}"
+     name="asxPanel"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233944D-638A-11D3-AFAF-A7609D77C427}"
+     name="asxPanel"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233944F-638A-11D3-AFAF-A7609D77C427}"
+     name="asxPowerBanner"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339450-638A-11D3-AFAF-A7609D77C427}"
+     name="asxPowerBanner"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339452-638A-11D3-AFAF-A7609D77C427}"
+     name="asxPowerButton"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339453-638A-11D3-AFAF-A7609D77C427}"
+     name="asxPowerButton"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339455-638A-11D3-AFAF-A7609D77C427}"
+     name="asxStatusBar"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339456-638A-11D3-AFAF-A7609D77C427}"
+     name="asxStatusBar"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339458-638A-11D3-AFAF-A7609D77C427}"
+     name="asxToolbar"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339459-638A-11D3-AFAF-A7609D77C427}"
+     name="asxToolbar"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233945B-638A-11D3-AFAF-A7609D77C427}"
+     name="asxToolbox"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233945C-638A-11D3-AFAF-A7609D77C427}"
+     name="asxToolbox"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233945E-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgBSButtons"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233945F-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgBSPages"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339460-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgToolBoxGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339461-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgSBPanels"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339462-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgTBButtons"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339463-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgTBGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339464-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgToolBoxButtons"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339465-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgFLGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233946A-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgPagerGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233946B-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgBSGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233946C-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgLHGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233946D-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgGenericGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233946E-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgBnrGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A233946F-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgBarsGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339470-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgPowerButtonGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339471-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgPowerButtonCaption"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339472-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgLblGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A2339473-638A-11D3-AFAF-A7609D77C427}"
+     name="_ppgStatusBarGeneral"
+     tlbid="{FBC672E3-F04D-11D2-AFA5-E82C878FD532}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A36C13DA-11F0-11D3-BD55-00A0C9D4BB53}"
+     name="UTL2_IChangeCounter"
+     tlbid="{79A0CC4B-DC4A-11D2-BD28-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A3A79B9A-B3E4-4220-9C39-B3947E337448}"
+     name="OwnerDrawComboList"
+     tlbid="{72D18DD4-0DA7-11D2-8E21-00B404C10000}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A5D9E7C6-EE22-4FAF-8D92-1A2949B8B2B1}"
+     name="OwnerDrawCanvas"
+     tlbid="{3DCCBF72-002E-49DD-93C2-0411C105535E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A7F77FE8-30F9-40E2-A0D4-353F6A8AAE46}"
+     name="TISDF_IAppScannerBedRemovalCmd"
+     tlbid="{B14424CE-CCF2-41A3-B5B2-8756BA36A1F2}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A9D3E492-9328-4941-B499-F3D46A234FCC}"
+     name="ITOBL_IResultSpaRoiProducer"
+     tlbid="{6DB95A24-1C8F-11D5-BD97-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{A9D7095D-4BC7-4F8D-BFD0-DD45D7C96632}"
+     name="_ppgImageList"
+     tlbid="{3DCCBF72-002E-49DD-93C2-0411C105535E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{AAF018FC-FE1F-4204-B466-2E6B78FE6C50}"
+     name="OwnerDrawComboList"
+     tlbid="{72D18DD4-0DA7-11D2-8E21-00B404C10000}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{ABEF7E5E-BA9D-42CC-B958-D2D88EA4A762}"
+     name="donectlnew"
+     tlbid="{649ECC79-2977-11D4-BD37-00A0C9ED6D19}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{AC9410D0-463F-4522-9BA8-F44652062C17}"
+     name="IMGT_IAnnotationProducer"
+     tlbid="{E200C8DB-595F-11D3-BD5E-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B07DFECB-B371-4D1F-B125-32D078C300CF}"
+     name="UICFG_AnnotBase"
+     tlbid="{5A2E8227-EF0C-4109-B5B3-4B487091AC27}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B09A83EB-B634-4662-9124-52372976254E}"
+     name="SPA_ISyncPanCmd"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B0B1577F-6074-14D5-B6AA-0060C236CE3E}"
+     name="IMGT_ILinkHandler"
+     tlbid="{E200C8DB-595F-11D3-BD5E-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B2B5EB40-8826-11D0-9CAF-00A0C90F29FC}"
+     name="IReturnBool"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B2D2578F-89A9-45C6-A003-182B66105087}"
+     name="ITOBL_IResultSpaRoiHandler"
+     tlbid="{6DB95A24-1C8F-11D5-BD97-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B3230A3B-BD1A-11D3-BD2C-00C04F6047D8}"
+     name="CFG_IPathList"
+     tlbid="{54F5B0C3-7C0A-11D3-BD2A-0090278D002D}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B3625516-3392-40B5-939A-0149EAF1B0D6}"
+     name="AE_Explorer"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B42CB179-F0F3-492A-9BC3-4259657B8CC9}"
+     name="CDateTime"
+     tlbid="{753FEE6F-A545-4EAA-AAC8-87512ED29F21}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B9B1A054-4071-15D3-BD6A-60A0C922C36E}"
+     name="PNL_IGDAReportHandler"
+     tlbid="{26624608-47F8-11D3-BD6C-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B9B1A77F-6071-11D3-BDAA-00A0C982CE3E}"
+     name="SPA_IHandler"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{B9B1A785-6071-11D3-BDAA-00A0C982CE3E}"
+     name="SPA_IDeltaZoomCmd"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{BB42169F-C7FA-42BD-B6F4-156065F06B1B}"
+     name="SPA_IMGHandler"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{BB821C41-F597-4C0A-9618-86F04AE1E79E}"
+     name="SPA_IMGProducer"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{BF2D9130-7BE6-11D0-9C95-00A0C90F29FC}"
+     name="IReturnString"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{BFD8F56E-6FCB-4BFE-B1F0-67840E7C47F1}"
+     name="SCMD_IDefaultModeButtonCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{C1C88150-4CAA-4926-BAC5-1EC892F71032}"
+     name="ICustomizeListboxEvents"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{C320D799-339E-4537-9CBC-DC9151D34779}"
+     name="GRA_IBaseSquareHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{C36977B2-4402-11D3-BD62-00A0C982CE3E}"
+     name="SCMD_IMouseMoveCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{C4C54436-F8FA-43B6-BF4C-0657FF102127}"
+     name="GRA_IDeltaPanCmd"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{C637DDF7-233A-459A-AEDC-3CCB34987308}"
+     name="GRA_IScoutsLinesHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{C718F6EA-8702-4E0B-955A-534624D586F2}"
+     name="PANELYL"
+     tlbid="{126E5473-A4FC-11D2-BD79-CC4506C10000}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{C82546BC-4D53-435C-9532-F521C1E9F828}"
+     name="IsgGridCustomDraw"
+     tlbid="{5D9D76CC-485B-47FB-9BA6-E11F93CB374D}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{C8876406-78F2-4C6D-978C-E4E4A4511041}"
+     name="Mammo_INippleCorrectionProducer"
+     tlbid="{274FEE52-10DF-432E-99E5-F065961D208B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CBABC86D-8563-4716-B5C4-01AD06C8DD94}"
+     name="ucListDragDrop"
+     tlbid="{D4BF8F6B-5E20-11D4-BD7E-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CCBF30D5-CB37-4695-A676-847EC142B868}"
+     name="SPA_IAppMagnifyGlassCmd"
+     tlbid="{D41154B3-5E08-11D3-BD66-00A0C9ECF91E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CD26405A-939E-4C70-B08B-C5B55A599F2D}"
+     name="XCMD_AppPushToClientCmd"
+     tlbid="{01C80B28-D324-497D-8E93-1375B1A829DB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CDA1CA00-8B5D-11D0-9BC0-0000C0F04C96}"
+     name="ISSReturnLong"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CDA1CA02-8B5D-11D0-9BC0-0000C0F04C96}"
+     name="ISSReturnShort"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CDA1CA04-8B5D-11D0-9BC0-0000C0F04C96}"
+     name="ISSReturnBoolean"
+     tlbid="{1C203F10-95AD-11D0-A84B-00A0247B735B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{CF539214-D40A-4BDF-B3BC-F08C175DB1FB}"
+     name="UI_ILogin"
+     tlbid="{7DDD3E4A-5967-11D3-827F-00A0C982CB4C}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{D0E3886E-02F7-4511-B4BA-A8836FFF180F}"
+     name="WLP_IAppChangeScaleModeCmd"
+     tlbid="{896E9FDB-5A1D-11D3-BD9E-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{D197FB77-DE85-4D67-9554-DF980BF6FA8E}"
+     name="ImgUnitCtl"
+     tlbid="{345C2F54-5B55-11D6-BF09-00D0B7A93974}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{D4C0B8CD-974B-424F-937C-26D3D728CB7C}"
+     name="DropDownCtl"
+     tlbid="{E08580C9-0BA8-11D4-BDA3-00A0C9ED6D19}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{D87D88FC-4268-4BA2-8831-F895BC720524}"
+     name="ICustomHost"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{D900EC7A-3F2E-4891-9D39-51D7C5D220DB}"
+     name="_PARIS"
+     tlbid="{B70B353C-DEA8-4A53-816D-88FEDAB8B871}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{DB28D11C-7912-4C0F-BEF5-C053C24DE742}"
+     name="WLP_ICyclePresetCmd"
+     tlbid="{896E9FDB-5A1D-11D3-BD9E-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{DD60B348-1AAD-4745-A9E5-04EFB8A5F607}"
+     name="ListBoxX"
+     tlbid="{3DCCBF72-002E-49DD-93C2-0411C105535E}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{DE5C74DE-488E-4E94-8BA6-FE13008C1A4B}"
+     name="ScrollableContainer"
+     tlbid="{BB35AEF3-E525-4F8B-81F2-511FF805ABB1}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E2043103-8B01-4D74-AD2E-CA077DE80CCF}"
+     name="PNL_IAppSwitchGDACmd"
+     tlbid="{26624608-47F8-11D3-BD6C-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E22B91AB-5DA1-436F-8836-6BF6997F2BD4}"
+     name="GRA_IAttachedTextHandler"
+     tlbid="{2CD882A6-6370-11D3-BD75-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E2585151-2883-11D2-B1DA-00104B9E0750}"
+     name="ISSResizer"
+     tlbid="{E2585150-2883-11D2-B1DA-00104B9E0750}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E2585152-2883-11D2-B1DA-00104B9E0750}"
+     name="DSSResizerEvents"
+     tlbid="{E2585150-2883-11D2-B1DA-00104B9E0750}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E2A26F7B-4A2D-11D3-BD71-00A0C9D4BD79}"
+     name="GM_ISelectionCmd"
+     tlbid="{70FB7E6F-49A1-11D3-BD70-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E5567D10-429B-4580-93A7-26CBF031F884}"
+     name="cScrollBars"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{E8739E77-787B-42A1-8FD9-A9E853C6B78E}"
+     name="ucListDragDrop"
+     tlbid="{D4BF8F6B-5E20-11D4-BD7E-00A0C9ED6D19}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{EA6020A2-EBC9-4EF5-B711-008BB9ABDF3C}"
+     name="UICFG_MainCls"
+     tlbid="{5A2E8227-EF0C-4109-B5B3-4B487091AC27}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{EB76CF90-2A48-4BC1-882F-64442EA555CE}"
+     name="HelperFunctions"
+     tlbid="{3C436295-0DC2-4B54-A3AE-C5A98AB5A93A}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{EBD273BA-4093-4551-BDEA-371D8BB392EE}"
+     name="GM_ISaveAsDPCOM"
+     tlbid="{70FB7E6F-49A1-11D3-BD70-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{EC0C7A47-37A4-11D3-BD49-00A0C982CE3E}"
+     name="SCMD_IBaseCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{EC0C7A4B-37A4-11D3-BD49-00A0C982CE3E}"
+     name="SCMD_IUICmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{EE349A8C-4CBB-45B6-8C23-677047C9B32D}"
+     name="ccrpDtp"
+     tlbid="{753FEE6F-A545-4EAA-AAC8-87512ED29F21}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{EFA53723-7860-4ED2-86C7-1E19A598681A}"
+     name="Mammo_IRefLinesProducer"
+     tlbid="{274FEE52-10DF-432E-99E5-F065961D208B}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F44FB9C8-4A38-4C08-95DF-0B6CD4C096AD}"
+     name="MPRIS_IManager"
+     tlbid="{B70B353C-DEA8-4A53-816D-88FEDAB8B871}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F5018C2F-4A5B-11D3-BD72-00A0C9D4BD79}"
+     name="GM_IAppAddGroupCmd"
+     tlbid="{70FB7E6F-49A1-11D3-BD70-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F5018C4A-4A5B-11D3-BD72-00A0C9D4BD79}"
+     name="GM_IAppRearrangeCmd"
+     tlbid="{70FB7E6F-49A1-11D3-BD70-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F5018C80-4A5B-11D3-BD72-00A0C9D4BD79}"
+     name="GM_IAppReleaseGroupCmd"
+     tlbid="{70FB7E6F-49A1-11D3-BD70-00A0C9D4BD79}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F6147220-5940-11D2-9E01-00104B9E078A}"
+     name="ISSResizeOptions"
+     tlbid="{E2585150-2883-11D2-B1DA-00104B9E0750}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F61E3656-C081-46C6-9666-263EBA4F4F10}"
+     name="CFG_IUtils"
+     tlbid="{54F5B0C3-7C0A-11D3-BD2A-0090278D002D}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F782DE24-0B12-494A-9E8E-FEFF51E6E1CD}"
+     name="TISDF_IScannerBedRemovalProducer"
+     tlbid="{B14424CE-CCF2-41A3-B5B2-8756BA36A1F2}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F825E48D-AF9C-4EF1-A223-23AD3CBE30BE}"
+     name="cScrollBars"
+     tlbid="{8EF77A29-D894-11D3-BD73-00A0C9ED6D19}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F8A97215-079B-4E95-AAA4-8976349FC650}"
+     name="TFUI_Manager"
+     tlbid="{27396CF6-973D-4BEF-BA4E-7003EAFEB03E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F8FB8A65-4B45-11D3-BD7A-00A0C982CE3E}"
+     name="SCMD_ISliderCmd"
+     tlbid="{EC0C7A46-37A4-11D3-BD49-00A0C982CE3E}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{F9EF3E23-96B4-48FC-962C-A1A3112F128E}"
+     name="VDP_IAppPointsOfIntButtonCmd"
+     tlbid="{0543FDA4-323D-4424-8150-1F92875652B0}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{FD6DA797-AEF7-451E-8FD7-A0999FC3874C}"
+     name="WizardCtl"
+     tlbid="{5D072307-5B7C-43C1-9B00-4D20746792FA}"
+     proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{FDA4677C-3A7C-48D0-ADFB-2872E8CE0653}"
+     name="ICustomizeListbox"
+     tlbid="{8D02DC4E-BFE1-4A08-9F2A-F268CB42CDFB}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{FF760C21-6C7B-441D-8A61-4B8586C823CC}"
+     name="UP_IDXAppEnvParams"
+     tlbid="{88CEA5F7-C202-11D3-BD2D-00C04F6047D8}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+<comInterfaceExternalProxyStub 
+     iid="{FFBA2C6A-ADE8-4810-96D1-8029C78D0810}"
+     name="DPW_WizardController"
+     tlbid="{C33AEA7A-CD22-4DBA-B0E7-D6C5912CB403}"
+     proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"/>
+
+</assembly>
